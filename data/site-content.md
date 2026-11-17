@@ -1,0 +1,2033 @@
+# senglobalgroup.com — site content
+
+Extracted 2026-11-17T14:06:53.914Z
+
+## Site-wide (header / menu / footer)
+
+- home
+- About Us
+- Products Feldspar Quartz Chamotte Bentonite Talc Limestone Cordierite Sanitary Ware Chips Porcelain Insulator Kyanite Silicon Carbide Manganese Alumina Grog FeldsparQuartzChamotteBentoniteTalcLimestoneCordieriteSanitary Ware ChipsPorcelain InsulatorKyaniteSilicon CarbideManganeseAlumina Grog
+- Feldspar
+- Quartz
+- Chamotte
+- Bentonite
+- Talc
+- Limestone
+- Cordierite
+- Sanitary Ware Chips
+- Porcelain Insulator
+- Kyanite
+- Silicon Carbide
+- Manganese
+- Alumina Grog
+- Group of CompaniesSri Venkateswara MineralsSri Devi MineralsSri Rajalakshmi MineralsSri Kalaivani MineralsS.E.N Minerals
+- Sri Venkateswara Minerals
+- Sri Devi Minerals
+- Sri Rajalakshmi Minerals
+- Sri Kalaivani Minerals
+- S.E.N Minerals
+- Projects
+- Contact Us
+- ## Limestone
+- ## Feldspar
+- ## Quartz
+- ## Chamotte
+- ## Bentonite
+- ## Talc
+- ## About Us
+- SEN Group of Companies is South India’s leading minerals manufacturer, established in 1973. With seven sub-companies, including Sri Venkateswara Minerals and Sri Devi Minerals, we own and operate our own mines to ensure quality and sustainability.
+- ## Company
+- ## Quick Links
+- Ball Clay
+- ## Countries
+- ## Address
+- ## Contact Number
+- Office Number: 9841676853
+- ## Mail Id
+- © 2025 Senglobalgroup – By FriendlyFreelancer
+- ## Our Products
+- ### Sourced & Supplied by SEN Global Group
+- ### Product Specifications
+- ## Our Process
+- ## Available Packaging Options
+- ## 50 Kg Bags
+- Standard packaging for medium-scale applications
+- ## 1 Ton Jumbo Bags
+- Best for bulk industrial use
+- ## Customized Packaging
+- Available upon request
+- ## FAQ
+- 9841676853
+
+
+---
+
+## PAGE: home - senglobalgroup.com
+URL: https://senglobalgroup.com/
+
+# since 1973
+
+# South India’s leading Minerals Manufacturing and Mining Company
+
+# South India’s leading Minerals Manufacturing and Mining Company
+
+Feldspar | Quartz | Chamotte | Bentonite | Talc | Limestone
+
+## WHO WE ARE
+
+## We Love Mining
+
+SEN Group of Companies is South India’s leading minerals manufacturer, established in 1973. With seven sub-companies, including Sri Venkateswara Minerals and Sri Devi Minerals, we own and operate our own mines to ensure quality and sustainability. We specialize in minerals like feldspar, bentonite, cordierite, kyanite, insulator powder, sanitary powder, and talc, serving industries like refractory, cement, glass, tiles, and sanitary ware.
+
+## Environmental Care
+
+We prioritize eco-friendly mining and sustainable processing. Our responsible extraction methods ensure minimal environmental impact while maintaining the highest standards of resource efficiency.
+
+# Environmental Care
+
+We prioritize eco-friendly mining and sustainable processing. Our responsible extraction methods ensure minimal environmental impact while maintaining the highest standards of resource efficiency.
+
+## Modern Technology
+
+We use advanced machinery and high-temperature rotary kilns to refine minerals with precision. Our Gummidipundi factory specializes in refractory raw materials, including SEN MOTTE chamotte, processed at 1450°C, ensuring superior quality for industrial applications.
+
+## Modern Technology
+
+We use advanced machinery and high-temperature rotary kilns to refine minerals with precision. Our Gummidipundi factory specializes in refractory raw materials, including SEN MOTTE chamotte, processed at 1450°C, ensuring superior quality for industrial applications.
+
+Explore Our
+
+## Main Products
+
+At SEN Group of Companies, we manufacture and supply high-quality minerals for various industries. Our products are known for their purity, consistency, and industrial-grade quality, ensuring optimal performance in applications like refractory, ceramics, glass, cement, and more.
+
+## Manganese
+
+## Silicon Carbide
+
+## Kyanite
+
+## Alumina Grog
+
+Dense, solid alumina grog for refractories
+
+## Sanitary Ware Chips
+
+## Porcelain Insulator
+
+## Manganese
+
+## Silicon Carbide
+
+## Kyanite
+
+## Alumina Grog
+
+Dense, solid alumina grog for refractories
+
+## Sanitary Ware Chips
+
+## Porcelain Insulator
+
+## Manganese
+
+## Silicon Carbide
+
+## Kyanite
+
+## Alumina Grog
+
+Dense, solid alumina grog for refractories
+
+## Sanitary Ware Chips
+
+## Porcelain Insulator
+
+## Ready For Your Next Projects?
+
+## Why Choose Us
+
+## Mining
+
+## Modern Machine
+
+We use modern machines for fast and efficient mineral processing. Our latest technology helps minimize waste, enhance quality, and boost productivity. With automated systems, we deliver consistent and reliable mineral supply across industries in India.
+
+## WE HAVE GREAT ACHIEVEMENTS TO SHOW
+
+In addition to our expertise in mineral extraction, we provide high-quality refining and supply chain solutions to meet client requirements with precision and efficiency.
+
+Years of Expertise in Mining
+
+Tons of Minerals Extracted Annually
+
+Advanced Processing Facility
+
+Satisfied Clients Worldwide
+
+## Trusted by Leading Brands in India
+
+---
+
+## PAGE: About Us - senglobalgroup.com
+URL: https://senglobalgroup.com/about-us/
+
+# Since 1973
+
+# Since 1973
+
+About SEN Group of Companies
+
+# Top Minerals Manufacturing and Mining Company
+
+SEN Group of Companies, based in Chennai, is one of South India’s top mineral manufacturers. With over 50 years of experience, we are a trusted supplier of high-quality minerals used in industries like refractories, cement, glass, tiles, and ceramic.
+
+We take pride in delivering reliable and top-grade mineral products to meet the needs of various industries, ensuring quality and consistency in every supply.
+
+# Our Legacy & Expertise
+
+Established in 1973, SEN Group has expanded into a leading mineral manufacturing company with seven sub-companies, including Sri Venkateswara Minerals and Sri Devi Minerals, which are well-known in the industry.
+
+With advanced manufacturing units and our own mines, we ensure a steady supply of high-quality minerals. Our focus on innovation, reliability, and excellence makes us a trusted name in the mineral and industrial sector.
+
+Our Products
+
+## High-Quality Minerals for Industrial Applications
+
+At SEN Group of Companies, we specialize in manufacturing and supplying premium-quality minerals that meet the highest industry standards. Our products are widely used in ceramics, refractories, construction, glass, and various industrial applications.
+
+## Manganese
+
+## Silicon Carbide
+
+## Kyanite
+
+## Alumina Grog
+
+Dense, solid alumina grog for refractories
+
+## Sanitary Ware Chips
+
+## Porcelain Insulator
+
+## Manganese
+
+## Silicon Carbide
+
+## Kyanite
+
+## Alumina Grog
+
+Dense, solid alumina grog for refractories
+
+## Sanitary Ware Chips
+
+## Porcelain Insulator
+
+## Manganese
+
+## Silicon Carbide
+
+## Kyanite
+
+## Alumina Grog
+
+Dense, solid alumina grog for refractories
+
+## Sanitary Ware Chips
+
+## Porcelain Insulator
+
+# Mission
+
+At SEN Group of Companies, our mission is to deliver high-quality industrial minerals with sustainability, innovation, and efficiency. We aim to support industries like ceramics, glass, construction, and refractories by providing reliable and eco-friendly mineral solutions while ensuring the highest industry standards.
+
+# Vission
+
+To be a global leader in mineral manufacturing and supply, known for our quality, sustainability, and innovation. We strive to expand our reach, adopt cutting-edge technology, and contribute to a greener future by promoting responsible mining and eco-friendly practices.
+
+## Our Core Values
+
+## Quality First
+
+## Customer Commitment
+
+## Sustainability
+
+## Innovation & Excellence
+
+## Integrity & Ethics
+
+## Teamwork
+
+## Years of Experience
+
+With over 50 years in the minerals manufacturing industry, we have the expertise and knowledge to provide effective solutions for all types of clients.
+
+## Advanced Manufacturing Facilities
+
+Our factories in Chennai, Salem, Mettur, and Gummidipundi are equipped with the latest technology, ensuring that we produce minerals with high precision. The Gummidipundi facility focuses on making top-quality refractory raw materials.
+
+## Wide Range of Products
+
+We offer a broad range of minerals like feldspar, bentonite, cordierite, and kyanite. This helps us serve industries such as cement, glass, refractory, tiles, and sanitary ware.
+
+## Commitment to Quality
+
+Quality is our priority. We follow strict quality control processes at every stage of production to ensure that our products meet industry standards. This gives our clients confidence and reliability.
+
+## Focus on Sustainability
+
+We are committed to minimizing our environmental impact through sustainable mining practices. We aim to reduce our carbon footprint and contribute to a greener future.
+
+## Strong Client Relationships
+
+We have built long-term relationships with leading companies such as ANUJ, Jyothy Labs, CUMI, and Dalmia Refractories. Our dedication to trust, consistency, and excellent service helps us meet and exceed our clients’ expectations.
+
+## Innovation and Research
+
+We continuously invest in research and development to improve our products and manufacturing processes. This ensures we stay ahead of the market and provide innovative solutions.
+
+## Customer-Focused Service
+
+We take the time to understand the unique needs of each client. Our team is always ready to offer expert advice and deliver the best products on time, every time.
+
+Expertise
+
+# What Makes Us Strong
+
+At SEN Group of Companies, our success comes from the strengths that set us apart in the minerals industry. These strengths help us deliver high-quality products and services to our clients consistently:
+
+---
+
+## PAGE: Products - senglobalgroup.com
+URL: https://senglobalgroup.com/products/
+
+# Premium Industrial Minerals for Diverse Applications
+
+Premium Industrial Minerals for Diverse Applications
+
+Get our high quality mineral solutions, sourced and processed to meet the highest industry standards. From ceramics and glass to refractory and construction, we provide the raw materials that power innovation.
+
+# Feldspar
+
+A vital raw material in ceramics and glass manufacturing, feldspar enhances durability and resistance.
+
+View More →
+
+# Quartz
+
+High-purity mineral widely used in glass, electronics, and engineered stone surfaces for its strength.
+
+View More →
+
+# Chamotte
+
+Essential for high-temperature applications, ensuring superior heat resistance in industrial processes.
+
+View More →
+
+# Bentonite
+
+A versatile clay mineral known for its excellent binding, absorbent, and sealing properties in various industries.
+
+View More →
+
+# Talc
+
+A soft mineral used in plastics, cosmetics, and coatings for its smooth texture and moisture resistance.
+
+View More →
+
+# Limestone
+
+A key ingredient in cement, construction, and chemical industries, offering strength and versatility.
+
+View More →
+
+# Cordierite
+
+A heat-resistant mineral used in ceramics and kiln furniture, known for its low thermal expansion and durability.
+
+View More →
+
+# Sanitary Ware Chips
+
+Processed ceramic chips used in manufacturing sanitary products, offering high strength and smooth finishes.
+
+View More →
+
+# Porcelain Insulator
+
+High-performance insulators for electrical applications, valued for their mechanical strength and thermal resistance.
+
+View More →
+
+# Kyanite
+
+A refractory mineral used in ceramics and foundry molds, recognized for expanding when heated.
+
+View More →
+
+# Silicon Carbide
+
+A hard synthetic material ideal for abrasives and high-temperature applications due to its thermal conductivity.
+
+View More →
+
+# Manganese
+
+A vital metal in steel production, enhancing hardness, toughness, and wear resistance in industrial alloys.
+
+View More →
+
+# Alumina Grog
+
+Crushed alumina used in refractory applications, offering thermal stability and resistance to spalling.
+
+View More →
+
+---
+
+## PAGE: Feldspar - senglobalgroup.com
+URL: https://senglobalgroup.com/feldspar-2/
+
+## Feldspar – High-Quality Industrial Mineral
+
+Feldspar is one of the most abundant minerals on Earth, It improves durability, strength, and thermal resistance, making it an essential raw material in various industries.
+
+At SEN Global Group, we supply premium-grade feldspar with high purity and consistent quality. Our feldspar is carefully processed to meet the requirements of manufacturers in tiles, glass, coatings, and industrial applications.
+
+Our feldspar is available in different grades to suit multiple applications. Our feldspar is available in customized grades, depending on your industry requirements.
+
+### key specifications:
+
+Chemical Composition: Al₂O₃, SiO₂, K₂O/Na₂O
+
+Purity: High-grade with minimal impurities
+
+Color: White, Pink, Light Grey
+
+Physical Form: Lumps, Granules, Powder
+
+Moisture Content: ≤ 1%
+
+Density: 2.55 – 2.76 g/cm³
+
+Hardness: 6 – 6.5 (Mohs scale)
+
+Melting Point: 1150°C – 1250°C
+
+### Types Available
+
+## Potassium Feldspar
+
+## Sodium Feldspar
+
+Higher sodium content, commonly used in coatings and paints
+
+## Industries & Applications
+
+Feldspar is a highly versatile mineral with applications across several industries:
+
+Ceramics & Tiles: Enhances strength, durability, and glossiness in tiles and sanitaryware
+
+Glass Manufacturing: Improves clarity, strength, and melting properties in glass production
+
+Paints & Coatings: Acts as a functional filler, enhancing durability and weather resistance
+
+Refractory Industry: Provides thermal resistance in high-temperature applications
+
+Electronics & Insulators: Used in electrical insulators and semi-conductors
+
+Abrasives & Polishing: Essential for polishing materials and industrial abrasives
+
+## How We Make High-Quality Feldspar
+
+At SEN Global Group, we follow a step-by-step process to ensure our feldspar is pure, consistent, and of the best quality for industries like tiles and soup industries
+
+## Mining & Extraction
+
+## Crushing & Grinding
+
+## Screening & Sorting
+
+## Removing Impurities
+
+## Quality Testing
+
+## Packaging & Delivery
+
+## Why Choose Feldspar from SEN Global Group?
+
+At SEN Global Group, we ensure that our feldspar meets high-quality standards for industrial applications.
+
+## High Thermal Stability
+
+## Excellent Chemical Resistance
+
+## Enhances Strength & Gloss
+
+## Low Impurities
+
+## Eco-Friendly & Non-Toxic
+
+## Customized Solutions
+
+To cater to different business needs, we provide feldspar in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Order High-Quality Feldspar Today!
+
+Looking for premium feldspar for your business? We offer customized solutions for ceramics, glass, coatings, refractories, and more.
+
+#### What is Feldspar?
+
+#### Where is Feldspar commonly found?
+
+#### Is Feldspar safe to use?
+
+#### How is Feldspar processed?
+
+#### Do you provide bulk supply and export services?
+
+---
+
+## PAGE: Quartz - senglobalgroup.com
+URL: https://senglobalgroup.com/quartz/
+
+## Quartz – High-Purity Mineral for Multiple Industries
+
+At SEN Global Group, we supply high-quality Quartz that meets industry standards for strength, durability, and purity. Our quartz is carefully processed and used in a wide range of industries like glass, electronics, ceramics, and more.
+
+Our quartz is available in different grades to suit multiple applications. Our quartz is available in customized grades, depending on your industry requirements.
+
+### key specifications
+
+Purity: Up to 99.5% SiO₂
+
+Color: White, milky, translucent, or clear
+
+Form: Lumps, grits, and powder
+
+Size: Custom sizes as per client requirement
+
+Hardness: 7 on Mohs scale
+
+### Industries & Applications
+
+Glass Manufacturing – For clear and durable glass
+
+Ceramics – For added strength and heat resistance
+
+Paints & Coatings – As a filler and for smooth texture
+
+Electronics – Used in semiconductor components
+
+Construction – For flooring, tiles, and countertops
+
+Refractories – Improves thermal resistance in furnaces
+
+### Types Available
+
+## Quartz Grits
+
+Crushed and screened quartz for uniform size
+
+## Quartz Lumps
+
+Raw and naturally extracted quartz
+
+## Quartz Powder
+
+Finely ground quartz for industrial use
+
+## How We Make High-Quality Quartz
+
+At SEN Global Group, we follow a step-by-step process to ensure our Quartz is pure, consistent, and of the best quality for industries like tiles and soup industries
+
+## Mining
+
+## Washing & Drying
+
+## Crushing & Grinding
+
+## Screening
+
+## Magnetic Separation
+
+## Quality Testing & Packaging
+
+## Why Choose Quartz from SEN Global Group?
+
+At SEN Global Group, we ensure that our Quartz meets high-quality standards for industrial applications.
+
+## High purity and consistent quality
+
+## Custom sizes available
+
+## Reliable and timely delivery
+
+## Processed with advanced machinery
+
+## Eco-Friendly & Non-Toxic
+
+## Strict quality control at every step
+
+To cater to different business needs, we provide Quartz in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Get in Touch Today!
+
+Want high-quality quartz for your business? Contact SEN Global Group – your trusted mineral supplier.
+
+#### What is Quartz used for?
+
+#### What forms of Quartz do you supply?
+
+#### Can I get customized sizes?
+
+#### Is your Quartz suitable for export?
+
+#### What is the MOQ (Minimum Order Quantity)?
+
+#### How do you ensure quality?
+
+---
+
+## PAGE: Chamotte - senglobalgroup.com
+URL: https://senglobalgroup.com/chamotte/
+
+## Chamotte – Premium Refractory Material
+
+At SEN Global Group, we provide high-quality Chamotte, also known as calcined clay, widely used in the refractory, ceramic, and Steel & Metallurgy industries. We named our product SEN Motte to reflect its trusted performance and consistency in industrial applications. Our high aluminium chamotte is produced using advanced rotary kiln technology at 1450°C, ensuring superior thermal resistance and mechanical strength.
+
+Our Chamotte is available in different grades to suit multiple applications. Our Chamotte is available in customized grades, depending on your industry requirements.
+
+### Physical Analysis
+
+Parameters
+
+Test Method
+
+Values in %
+
+Al₂O₃ (%) MIN
+
+XRF
+
+45
+
+Fe₂O₃ (%) MAX
+
+XRF
+
+1.5
+
+SiO₂ (%)
+
+XRF
+
+51.30
+
+CaO (%)
+
+XRF
+
+0.38
+
+TiO₂ (%) MAX
+
+XRF
+
+2.0
+
+### Industries & Applications
+
+🔥 Refractories – Bricks, castables, and furnace linings
+
+🏭 Steel & Metallurgy – Ladles, kilns, and foundry molds
+
+🧱 Ceramics – Floor tiles, fireclay products
+
+### Types Available
+
+## How We Make High-Quality Chamotte
+
+At SEN Group, we follow a precise and quality-driven process to manufacture premium-grade chamotte that meets the demanding requirements of the refractory industry.
+
+## Raw Clay Selection
+
+## Calcination in Rotary Kiln
+
+## Crushing & Grinding
+
+## Screening
+
+## lab Testing
+
+## Moisture-Proof Packaging
+
+## Why Choose Chamotte from SEN Global Group?
+
+At SEN Global Group, we ensure that our Chamotte meets high-quality standards for industrial applications.
+
+## Processed in our own rotary kiln plant
+
+## Tested for strength, durability, and heat resistance
+
+## Flexible supply in different grades and sizes
+
+## Over 50 years of mineral manufacturing experience
+
+## Eco-Friendly & Non-Toxic
+
+## Used by top refractory brands and industries in India and abroad
+
+To cater to different business needs, we provide Chamotte in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for high-quality Chamotte? Let’s talk! Contact SEN Global Group – your trusted mineral supplier.
+
+#### What is Chamotte used for?
+
+#### What is the firing temperature of your Chamotte?
+
+#### Can I request custom particle sizes?
+
+#### Do you supply Chamotte in bulk?
+
+#### Is your Chamotte suitable for export?
+
+#### How do you ensure quality?
+
+---
+
+## PAGE: Bentonite - senglobalgroup.com
+URL: https://senglobalgroup.com/bentonite/
+
+## Sodium Bentonite
+
+## Bentonite – High-Quality Industrial Clay
+
+SEN Global Group supplies premium-grade Bentonite, a natural clay with excellent absorption, swelling, and binding properties. Widely used in foundries, drilling, construction, agriculture, and more, our bentonite is processed to meet international quality standards.
+
+Our Bentoniteis available in different grades to suit multiple applications. Our Bentonite is available in customized grades, depending on your industry requirements.
+
+### key specifications
+
+Type: Sodium Bentonite / Calcium Bentonite
+
+Swelling Capacity: High (Sodium Type)
+
+Moisture Content: Below 12%
+
+pH Level: 8.5–10
+
+Form: Powder / Granules
+
+Color: Cream to light brown
+
+### Industries & Applications
+
+🏗 Construction – For waterproofing, piling, and tunneling
+
+🛢 Oil & Gas – In drilling mud for lubricating drill bits
+
+🔥 Foundry – As a binding agent in mold making
+
+🌾 Agriculture – As soil conditioner and animal feed binder
+
+🚰 Water Treatment – To absorb impurities in water
+
+💄 Cosmetics – For face packs and creams
+
+📄 Paper & Detergents – Acts as filler and absorbent
+
+## Industries & Applications
+
+Bentonite is a highly versatile mineral with applications across several industries:
+
+🏗 Construction – For waterproofing, piling, and tunneling
+
+🛢 Oil & Gas – In drilling mud for lubricating drill bits
+
+🔥 Foundry – As a binding agent in mold making
+
+🌾 Agriculture – As soil conditioner and animal feed binder
+
+🚰 Water Treatment – To absorb impurities in water
+
+💄 Cosmetics – For face packs and creams
+
+📄 Paper & Detergents – Acts as filler and absorbent
+
+## How We Make High-Quality Bentonite
+
+At SEN Global Group, we follow a meticulous process to produce premium-grade Bentonite for industrial use.
+
+## Mining
+
+## Dying and Crushing
+
+## Grinding
+
+## Activation
+
+## Lab Testing
+
+## Packaging
+
+## Why Choose Bentonite from SEN Global Group?
+
+At SEN Global Group, we ensure that our Bentonite meets high-quality standards for industrial applications.
+
+## Over 50 years of experience in mineral supply
+
+## In-house production & quality control
+
+## Customized grades and particle sizes
+
+## Trusted by foundries, drilling companies, and construction brands
+
+## Eco-Friendly & Non-Toxic
+
+## Timely delivery across India & exports
+
+To cater to different business needs, we provide Bentonite in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for reliable Bentonite suppliers? Contact SEN Global Group – your trusted mineral supplier.
+
+#### What is Bentonite used for?
+
+#### What’s the difference between sodium and calcium bentonite?
+
+#### Do you provide activated bentonite?
+
+#### Can I get custom packing or particle size?
+
+#### Is your bentonite suitable for export?
+
+#### How do you ensure quality control?
+
+---
+
+## PAGE: Talc - senglobalgroup.com
+URL: https://senglobalgroup.com/talc/
+
+## Talc – Soft Mineral for Industrial and Cosmetic Use
+
+At SEN Global Group, we offer premium-grade Talc, a soft, natural mineral known for its smooth texture, moisture resistance, and chemical stability. Our Talc is processed to meet the quality needs of various industries like plastics, paints, ceramics, paper, cosmetics, and pharmaceuticals.
+
+Our Talc is available in different grades to suit multiple applications. Our Talc is available in customized grades, depending on your industry requirements.
+
+### key specifications:
+
+Form: Powder
+
+Color: White to off-white
+
+Purity: Up to 98%
+
+Particle Size: 200 mesh sizes available
+
+Moisture Content: Below 0.8%
+
+pH Value: 8 – 10
+
+Oil Absorption: 30–60%
+
+## Industries & Applications
+
+🧴 Cosmetics & Personal Care – Face powders, body powders, deodorants
+
+🏭 Plastics & Rubber – As filler for strength and flexibility
+
+🎨 Paints & Coatings – Improves smoothness and coverage
+
+🧱 Ceramics – For glaze, tiles, and sanitaryware
+
+📃 Paper Industry – Adds smoothness and printability
+
+💊 Pharmaceuticals – As a binding agent and lubricant
+
+## How We Make High-Quality Talc
+
+At SEN Global Group, we follow a strict quality-controlled process to produce pure, consistent, and performance-ready talc for various industries such as cosmetics, pharmaceuticals, plastics, and paints.
+
+## Careful Mining
+
+## Drying & Crushing
+
+## Fine Grinding
+
+## Purification
+
+## Lab Testing
+
+## Safe Packaging
+
+## Why Choose Talc from SEN Global Group?
+
+At SEN Global Group, we ensure that our Talc meets high-quality standards for industrial applications.
+
+## Sourced from trusted mines with high purity
+
+## Available in customized grades and mesh sizes
+
+## Export-quality packaging
+
+## In-house quality testing for consistency
+
+## Over 50 years of mineral manufacturing experience
+
+## Serving top brands in cosmetics, paint, and ceramic industries
+
+To cater to different business needs, we provide Talc in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Need top-quality Talc for your industry? Contact SEN Global Group – your trusted mineral supplier.
+
+#### What is Talc used for?
+
+#### Do you offer cosmetic and pharma-grade talc?
+
+#### Can I get custom mesh size?
+
+#### Is your talc export-ready?
+
+#### What’s the minimum order quantity?
+
+#### How do you ensure quality?
+
+---
+
+## PAGE: Limestone - senglobalgroup.com
+URL: https://senglobalgroup.com/limestone/
+
+## Limestone – Versatile Mineral for Multiple Industries
+
+At SEN Global Group, we supply high-quality Limestone, a naturally occurring sedimentary rock rich in calcium carbonate (CaCO₃). Known for its durability, whiteness, and chemical stability, our limestone is perfect for industries like cement, construction, steel, agriculture, and chemicals.
+
+Our Limestone is available in different grades to suit multiple applications. Our Limestone is available in customized grades, depending on your industry requirements.
+
+### key specifications:
+
+Purity: Up to 98% CaCO₃
+
+Form: Lumps / Powder
+
+Color: White to light gray
+
+Moisture Content: < 1%
+
+Mesh Size: Available from 100 to 500 mesh
+
+Hardness: 3 on Mohs scale
+
+### Industries & Applications
+
+Limestone is a highly versatile mineral with applications across several industries:
+
+🏗️ Cement & Construction – As a key raw material in cement and concrete
+
+🏭 Steel Manufacturing – Acts as a flux in removing impurities
+
+🌾 Agriculture – Enhances soil health and crop productivity
+
+🧪 Chemical Industry – Used in lime production and water treatment
+
+🎨 Paint & Plastic – As a filler and pigment extender
+
+🧱 Glass & Ceramics – Improves durability and texture
+
+## How We Make High-Quality limestone
+
+At SEN Global Group, we follow a carefully monitored process to deliver premium limestone used in industries like cement, glass, steel, and agriculture. Every step is designed to ensure purity, consistency, and performance.
+
+## Mining
+
+## Crushing & Screening
+
+## Grinding
+
+## Purity Testing
+
+## Moisture Control
+
+## Packaging
+
+## Why Choose limestone from SEN Global Group?
+
+At SEN Global Group, we ensure that our limestone meets high-quality standards for industrial applications.
+
+## Direct sourcing from trusted limestone quarries
+
+## Wide range of grades and mesh sizes
+
+## In-house testing for purity and particle size
+
+## Suitable for both domestic and export markets
+
+## Over 50 years of mineral manufacturing experience
+
+## Used by top companies in steel, cement, and agro sectors
+
+To cater to different business needs, we provide Limestone in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for trusted Limestone suppliers? Let’s talk! Contact SEN Global Group – your trusted mineral supplier.
+
+#### What industries use limestone?
+
+#### Do you offer custom mesh sizes?
+
+#### Is your limestone suitable for agriculture?
+
+#### Can I order in bulk for export?
+
+#### How do you ensure the purity of your limestone?
+
+#### Do you deliver across India?
+
+---
+
+## PAGE: Cordierite - senglobalgroup.com
+URL: https://senglobalgroup.com/cordierite/
+
+## Cordierite
+
+## Cordierite – High-Performance Mineral for Thermal & Ceramic Applications
+
+Cordierite is a high-temperature ceramic mineral widely valued for its excellent thermal shock resistance, low thermal expansion, and high refractoriness. At SEN Global Group, we mine and process cordierite to meet the demands of industries like refractories, ceramics, foundries, and automotive.
+
+Our Cordierite is available in different grades to suit multiple applications. Our Cordierite is available in customized grades, depending on your industry requirements.
+
+### key specifications:
+
+Chemical Formula: (Mg₂Al₄Si₅O₁₈)
+
+Color: Grayish-blue to white
+
+Form: Lumps, granules, or powder
+
+Refractoriness: Up to 1400–1450°C
+
+Thermal Expansion: Very low (ideal for thermal shock resistance)
+
+Packaging: 50kg bags, 1-ton jumbo bags and Customized Packaging
+
+### Industries & Applications
+
+Cordierite is used in a wide range of thermal and structural applications
+
+Refractory Linings – Kilns, furnaces, and insulation bricks
+
+Ceramic Honeycomb Substrates – Automotive catalytic converters
+
+Electrical Insulators – In high-voltage components
+
+Foundry Applications – As a mold and core component
+
+Heat Shields & Radiant Panels – In industrial burners
+
+Cookware & Ovenware – Due to its resistance to cracking
+
+### Types Available
+
+We offer a wide range of Cordierite tailored for specific industry needs:
+
+## How We Make High-Quality Cordierite
+
+At SEN Global Group, we follow a step-by-step process to ensure our Cordierite is pure, consistent, and of the best quality for industries like tiles and soup industries
+
+## Selective Mining
+
+## Crushing & Screening
+
+## Washing & Drying
+
+## Magnetic Separation
+
+## Particle Grading
+
+## Quality Testing & Packaging
+
+## Why Choose Cordierite from SEN Global Group?
+
+At SEN Global Group, we ensure that our Cordierite meets high-quality standards for industrial applications.
+
+## Excellent thermal shock resistance
+
+## Low thermal expansion – ideal for heat-intensive applications
+
+## Sourced from pure mineral zones
+
+## Processed with advanced machinery
+
+## Custom sizing available
+
+## Trusted by top manufacturers in ceramics and refractories
+
+To cater to different business needs, we provide Cordierite in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Get in Touch Today!
+
+Looking for Premium Cordierite? Connect with SEN Global Group – Your trusted mineral solutions provider for over 50 years.
+
+#### What is Cordierite used for?
+
+#### What sizes do you offer?
+
+#### Can it be used in high-temperature equipment?
+
+#### Is your cordierite export-quality?
+
+#### Do you test the material before dispatch?
+
+#### What is the minimum order quantity (MOQ)?
+
+---
+
+## PAGE: Sanitary Ware Chips - senglobalgroup.com
+URL: https://senglobalgroup.com/sanitary-ware-chips/
+
+## Sanitary Ware Chips
+
+## Sanitary Ware Chips – High-Quality Raw Material for Ceramics & Sanitary Products
+
+At SEN Global Group, we offer premium Sanitary Ware Chips, a vital raw material in the manufacturing of ceramic sanitary products like wash basins, toilets, and bathroom fittings. Known for their high refractoriness, strength, and whiteness, our chips are processed from selected minerals under strict quality control to ensure optimal results in end-use applications.
+
+Our Sanitary Ware Chips is available in different grades to suit multiple applications. Our Sanitary Ware Chips is available in customized grades, depending on your industry requirements.
+
+### Physical Analysis
+
+Material Composition: Feldspar, quartz, kaolin, and other ceramic-grade minerals
+
+Color: White to off-white
+
+Size: Available in 0–3mm, 3–8mm, and custom sizes
+
+Form: Chips / granules
+
+### Industries & Applications
+
+Sanitary Ware Chips is a highly versatile mineral with applications across several industries:
+
+Ceramic Sanitary Ware Manufacturing – Toilets, basins, urinals, and bidets
+
+Tiles and Flooring Units – Acts as a fluxing agent to improve strength
+
+Glaze Preparation – Adds body and thermal resistance
+
+Porcelain Production – Enhances whiteness and vitrification
+
+Bathroom Fittings – Ensures durability and aesthetics
+
+### Types Available
+
+We offer a wide range of Sanitary Ware Chips tailored for specific industry needs:
+
+## Production Process at SEN Global Group
+
+## How We Make Premium Sanitary Ware Chips
+
+At SEN Group, we follow a precise and quality-driven process to manufacture premium-grade Sanitary Ware Chips that meets the demanding requirements of the refractory industry.
+
+## Raw Material Selection
+
+## Crushing & Screening
+
+## Washing & Drying
+
+## Magnetic Separation
+
+## Grading & Testing
+
+## Quality Testing & Packaging
+
+## Why Choose Sanitary Ware Chips from SEN Global Group?
+
+At SEN Global Group, we ensure that our Sanitary Ware Chips meets high-quality standards for industrial applications.
+
+## High whiteness and purity
+
+## Optimized chip size distribution
+
+## Low iron content for cleaner finish
+
+## Over 50 years of mineral manufacturing experience
+
+## Custom blending as per customer requirements
+
+## Trusted by top sanitary ware manufacturers
+
+To cater to different business needs, we provide Sanitary Ware Chips in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for high-quality Sanitary Ware Chips for your industrial use? Partner with SEN Global Group for consistent supply and unmatched quality in ceramic raw materials.
+
+#### What are Sanitary Ware Chips used for?
+
+#### What sizes are available?
+
+#### Are the chips suitable for export?
+
+#### Do you offer customized blends?
+
+#### What is the MOQ (Minimum Order Quantity)?
+
+#### How do you ensure quality?
+
+---
+
+## PAGE: Porcelain Insulator - senglobalgroup.com
+URL: https://senglobalgroup.com/porcelain-insulator/
+
+## Porcelain Insulator
+
+## Porcelain Insulators – High-Strength Electrical Components for Power Systems
+
+At SEN Global Group, we supply high-grade porcelain insulators known for their mechanical strength, electrical insulation, and weather resistance. Our insulators are essential components in power transmission, distribution, and substation systems, designed to perform reliably even in harsh outdoor conditions.
+
+Our Porcelain Insulator is available in different grades to suit multiple applications. Our Porcelain Insulator is available in customized grades, depending on your industry requirements.
+
+### Physical Analysis
+
+Material: High-quality vitrified porcelain
+
+Dielectric Strength: ≥ 60 kV/mm
+
+Mechanical Strength: High tensile and compressive resistance
+
+Color: Brown, white, or grey glaze
+
+Type: Pin type, disc type, post type, and strain insulators
+
+Temperature Resistance: Up to 1000°C
+
+Packaging: Standard export-safe wooden crates or cartons
+
+### Industries & Applications
+
+Porcelain Insulator is a highly versatile mineral with applications across several industries:
+
+Power Transmission & Distribution – For isolating conductors on utility poles
+
+Substations – To support switchgear and busbars
+
+Railway Electrification – Ensuring safe current flow
+
+Industrial Plants – For electrical insulation in harsh environments
+
+Renewable Energy – Used in solar and wind power infrastructure
+
+### Types Available
+
+## How We Make Premium Porcelain Insulator
+
+At SEN Group, we follow a precise and quality-driven process to manufacture premium-grade Porcelain Insulator that meets the demanding requirements of the refractory industry.
+
+## Raw Material Selection
+
+## Molding & Shaping
+
+## Drying & Firing
+
+## Glazing
+
+## Quality Testing
+
+## Packaging & Delivery
+
+## Why Choose Porcelain Insulator from SEN Global Group?
+
+At SEN Global Group, we ensure that our Porcelain Insulator meets high-quality standards for industrial applications.
+
+## High mechanical & dielectric strength
+
+## Weatherproof and UV-resistant glaze
+
+## Designed for both low and high voltage systems
+
+## Over 50 years of mineral manufacturing experience
+
+## Custom types and sizes available
+
+## Suitable for domestic and international power projects
+
+To cater to different business needs, we provide Porcelain Insulator in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Get in Touch Today!
+
+Looking for durable, certified porcelain insulators for your power project? Contact SEN Global Group – your trusted mineral supplier.
+
+#### What are Porcelain Insulators used for?
+
+#### What types do you manufacture?
+
+#### Are your insulators suitable for high-voltage lines?
+
+#### Do you offer customized solutions?
+
+#### What is the MOQ (Minimum Order Quantity)?
+
+#### Are your products export-ready?
+
+---
+
+## PAGE: Kyanite - senglobalgroup.com
+URL: https://senglobalgroup.com/kyanite/
+
+## Kyanite
+
+## Kyanite – High-Performance Mineral for Refractory & Ceramic Applications
+
+At SEN Global Group, we offer premium-grade Kyanite, a highly sought-after mineral known for its thermal stability, high alumina content, and strength at high temperatures. Our Kyanite is ideal for use in refractories, ceramics, foundries, and other high-heat industrial applications.
+
+Our Kyanite is available in different grades to suit multiple applications. Our Kyanite is available in customized grades, depending on your industry requirements.
+
+### Physical Analysis
+
+Al₂O₃ Content: Up to 58%
+
+Color: Blue, light blue, or bluish-grey
+
+Form: Lumps, grits, and powder
+
+Size: Customized particle sizes as required
+
+Bulk Density: 2.9–3.6 g/cm³
+
+Refractoriness: Up to 1750°C
+
+Packaging: 50kg, 1-ton jumbo bags and Customized Packaging
+
+### Industries & Applications
+
+Refractory Industry – For bricks, kiln linings, and furnace components
+
+Ceramics – Adds strength and thermal shock resistance to products
+
+Foundries – Used in molds and cores to resist thermal expansion
+
+Glass Manufacturing – As a high-alumina component
+
+Insulators – In electrical ceramics due to high dielectric strength
+
+### Types Available
+
+## How We Make Premium Kyanite
+
+At SEN Group, we follow a precise and quality-driven process to manufacture premium-grade Kyanite that meets the demanding requirements of the refractory industry.
+
+## Mining
+
+## Crushing & Screening
+
+## Washing & Drying
+
+## Magnetic Separation
+
+## Grading & Testing
+
+## Packaging
+
+## Why Choose Kyanite from SEN Global Group?
+
+At SEN Global Group, we ensure that our Kyanite meets high-quality standards for industrial applications.
+
+## High alumina content with excellent thermal stability
+
+## Custom sizing and purity grades available
+
+## In-house testing and quality assurance
+
+## Over 50 years of mineral manufacturing experience
+
+## Reliable global supply capability
+
+## Trusted by industries in refractories, ceramics, and glass
+
+To cater to different business needs, we provide Kyanite in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for high-quality Kyanite for your industrial use? Contact SEN Global Group – your trusted mineral supplier.
+
+#### What is Kyanite used for?
+
+Kyanite is used in high-temperature applications like refractories, ceramics, and foundries due to its stability and strength.
+
+#### What forms of Kyanite do you supply?
+
+#### Do you provide custom sizes?
+
+#### Is your Kyanite suitable for export?
+
+#### What is the MOQ (Minimum Order Quantity)?
+
+#### How do you ensure quality?
+
+---
+
+## PAGE: Silicon Carbide - senglobalgroup.com
+URL: https://senglobalgroup.com/silicon-carbide/
+
+## Silicon Carbide
+
+## Silicon Carbide – Superior Hardness & High-Temperature Performance
+
+Silicon Carbide (SiC) is a synthetic material known for its extreme hardness, high thermal conductivity, and exceptional resistance to wear, corrosion, and heat. At SEN Global Group, we offer premium-grade SiC tailored for industries such as abrasives, refractories, metallurgy, and electronics.
+
+Our Silicon Carbide is available in different grades to suit multiple applications. Our Silicon Carbide is available in customized grades, depending on your industry requirements.
+
+### key specifications
+
+Purity: Up to 98.5% SiC
+
+Color: Black or Green
+
+Form: Grains, powder, and blocks
+
+Hardness: 9.2–9.5 on Mohs scale
+
+Melting Point: Over 2700°C
+
+Thermal Conductivity: High – ideal for heat-intensive processes
+
+Packaging: 50kg bags, 1-ton jumbo bags, and Customized Packaging
+
+### Industries & Applications
+
+Silicon Carbide is widely used in several demanding sectors:
+
+Abrasives – Grinding wheels, cutting discs, sandpapers
+
+Refractories – Kiln furniture, furnace linings, and bricks
+
+Metallurgy – Deoxidizing agent in steelmaking
+
+Ceramics – High-performance technical ceramics
+
+Electronics – Used in semiconductors and high-power devices
+
+Foundry – For riser tubes, crucibles, and wear parts
+
+## How We Make High-Quality Silicon Carbide
+
+At SEN Global Group, we follow a carefully monitored process to deliver premium Silicon Carbide used in industries like cement, glass, steel, and agriculture. Every step is designed to ensure purity, consistency, and performance.
+
+## Carbothermal Synthesis
+
+## Crushing & Milling
+
+## Magnetic Separation
+
+## Particle Classification
+
+## Quality Testing
+
+## Packaging
+
+## Why Choose Silicon Carbide from SEN Global Group?
+
+At SEN Global Group, we ensure that our Silicon Carbide meets high-quality standards for industrial applications.
+
+## High purity and hardness
+
+## Superior thermal and chemical resistance
+
+## Available in grains, powder, and custom mesh sizes
+
+## Ideal for both abrasive and high-temperature applications
+
+## Over 50 years of mineral manufacturing experience
+
+## Reliable global delivery network
+
+To cater to different business needs, we provide Limestone in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Get High-Performance Silicon Carbide for Your Industry! Contact SEN Global Group – Trusted Mineral Experts with Decades of Experience.
+
+#### What industries use Silicon Carbide?
+
+#### What forms do you supply?
+
+#### Can you supply high-purity SiC?
+
+#### Do you offer custom particle sizes?
+
+#### Is your Silicon Carbide suitable for export?
+
+#### What is the MOQ?
+
+We handle both small and bulk orders. MOQ varies by form and size.
+
+---
+
+## PAGE: Manganese - senglobalgroup.com
+URL: https://senglobalgroup.com/manganese/
+
+## Manganese
+
+## Manganese – Essential Mineral for Steel & Alloy Industries
+
+At SEN Global Group, we supply high-quality Manganese that plays a crucial role in strengthening steel and enhancing alloy performance. With our in-house mining and processing units, we ensure that our manganese meets stringent industrial standards for purity, strength, and chemical composition.
+
+Our Manganese is available in different grades to suit multiple applications. Our Manganese is available in customized grades, depending on your industry requirements.
+
+### Physical Analysis
+
+Purity: Up to 46% Mn content
+
+Form: Lumps, chips, and fines
+
+Color: Black, greyish-black
+
+Size: Customizable as per client requirement
+
+Packaging: 50kg bags, 1-ton jumbo bags and Customized Packaging
+
+Grades Available: Ferro Manganese, Silico Manganese, Manganese Ore
+
+### Industries & Applications
+
+Steel Manufacturing – Improves hardness, strength & wear resistance
+
+Battery Industry – Used in lithium-ion and dry cell batteries
+
+Ferroalloys – For producing specialized steel and alloys
+
+Construction – Adds durability to steel bars and structural materials
+
+Chemical Industry – Used in fertilizers, pigments, and animal feed
+
+### Types Available
+
+## How We Make High-Quality Manganese
+
+At SEN Group, we follow a precise and quality-driven process to manufacture premium-grade Manganese that meets the demanding requirements of the refractory industry.
+
+## Mining
+
+## Crushing & Screening
+
+## Washing & Drying
+
+## Magnetic Separation
+
+## Grading & Testing
+
+The material is graded by Mn content and particle size, then tested in-house for parameters like Mn%, Fe%, moisture, and impurity levels to meet client standards.
+
+## Packaging
+
+## Why Choose Manganese from SEN Global Group?
+
+At SEN Global Group, we ensure that our Manganese meets high-quality standards for industrial applications.
+
+## High-grade manganese with reliable Mn content
+
+## Available in multiple forms and sizes
+
+## Consistent and reliable supply for all industries
+
+## Over 50 years of mineral manufacturing experience
+
+## In-house processing with strict quality control
+
+## Export-ready material with complete documentation
+
+To cater to different business needs, we provide Manganese in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for high-quality Chamotte? Let’s talk! Contact SEN Global Group – your trusted mineral supplier.
+
+#### What is Manganese used for?
+
+#### What forms of Manganese do you supply?
+
+#### Can I get custom sizes?
+
+#### Do you support export orders?
+
+#### What is your MOQ?
+
+Our Minimum Order Quantity depends on your usage and destination. We cater to both small and large-scale needs.
+
+#### How do you maintain quality?
+
+---
+
+## PAGE: Alumina Grog - senglobalgroup.com
+URL: https://senglobalgroup.com/alumina-grog/
+
+## Alumina Grog
+
+## Alumina Grog – High-Strength Refractory Material
+
+Alumina Grog, also known as calcined bauxite or calcined alumina, is a crushed and graded refractory aggregate made by heating bauxite ore at high temperatures. At SEN Global Group, we supply premium-grade alumina grog ideal for high-temperature and wear-resistant applications in refractories, castables, ceramics, and foundries.
+
+Our Alumina Grog is available in different grades to suit multiple applications. Our Alumina Grogis available in customized grades, depending on your industry requirements.
+
+### key specifications:
+
+Alumina Grog 2 types: 40% Alumina Grog, 70% Alumina Grog.
+
+Color: Off-white to light brown
+
+Form: Lumps, grains, and powder
+
+Size: Available in custom mesh sizes
+
+Bulk Density: 2.7 – 3.1 g/cm³
+
+Refractoriness: > 1750°C
+
+Packaging: 50kg bags, 1-ton jumbo bags and Customized Packaging
+
+## Industries & Applications
+
+Alumina Grog is a highly versatile mineral with applications across several industries:
+
+Refractory Bricks – Enhances strength and thermal shock resistance
+
+Monolithic Castables – As a coarse aggregate in ramming and gunning mixes
+
+Ceramics – For kiln furniture and structural parts
+
+Foundry – Used in mold and core materials
+
+Insulating Materials – Offers durability in extreme heat conditions
+
+## Solid Calcined Alumina Grog
+
+Dense, solid alumina grog for refractories
+
+## High Alumina Grog
+
+Durable, high-temperature refractory alumina material
+
+## Calcined Alumina Grog
+
+Heat-treated alumina for superior strength
+
+## How We Make High-Quality Alumina Grog
+
+At SEN Global Group, we follow a carefully monitored process to deliver premium Alumina Grog used in industries like cement, glass, steel, and agriculture. Every step is designed to ensure purity, consistency, and performance.
+
+## Selection of Raw Bauxite
+
+## High-Temperature Calcination
+
+## Crushing & Screening
+
+## Magnetic Separation
+
+## Particle Sizing
+
+## Final Testing & Packaging
+
+## Why Choose Alumina Grog from SEN Global Group?
+
+At SEN Global Group, we ensure that our Alumina Grog meets high-quality standards for industrial applications.
+
+## High Al₂O₃ content & thermal strength
+
+## Custom sizing available for all industries
+
+## Excellent thermal shock and corrosion resistance
+
+## Consistent supply and reliable logistics
+
+## Over 50 years of mineral expertise
+
+## In-house testing and strict quality control
+
+To cater to different business needs, we provide Alumina Grog in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for Reliable Alumina Grog for Your Application? Reach out to SEN Global Group – Your Trusted Partner in Refractory Solutions.
+
+#### What is Alumina Grog used for?
+
+#### Do you offer different grain sizes?
+
+#### Is your grog suitable for high-temperature applications?
+
+#### Can I order in bulk for export?
+
+#### How do you ensure the purity of your limestone?
+
+#### Do you export Alumina Grog?
+
+---
+
+## PAGE: Sri Venkateswara Minerals - senglobalgroup.com
+URL: https://senglobalgroup.com/sri-venkateswara-minerals/
+
+## Sri Venkateswara Minerals – Chennai
+
+## Sri Venkateswara Minerals – Chennai
+
+Sri Venkateswara Minerals, a proud member of the SEN Group of Companies, is a pioneering minerals grinding and manufacturing unit based in Chennai, Gummudipoondi. Established in 1973, the company has played a pivotal role in shaping the SEN Group’s legacy as a trusted leader in the South Indian minerals industry. In its continued pursuit of innovation and excellence, the company has launched a new state-of-the-art Chamotte manufacturing plant in Gummudipoondi, featuring a rotary kiln for high-temperature processing, further strengthening its capabilities in supplying high-quality refractory raw materials.Specializing in the production and supply of Feldspar, Quartz, Chamotte, high alumina grog powder, Kyanite, Manganese, Porcelain Insulators, Sanitary Ware Chips, Silicon Carbide, Cordierite, and Limestone, Sri Venkateswara Minerals has built a rock-solid foundation over more than five decades. The unit consistently meets and exceeds the quality expectations of clients across diverse industries, including ceramics, glass, refractory, and construction.
+
+## Facilities & Production Capacity
+
+Location: Chennai, Gummudipoondi, Amaramedu
+
+Machinery: 1 Rotary Kiln (for Chamotte manufacturing) 2 Ball Mills 3 Mesh Plants
+
+1 Rotary Kiln (for Chamotte manufacturing)
+
+2 Ball Mills
+
+3 Mesh Plants
+
+Production Capacity: 40,000 tons per annum
+
+## Why Choose Us?
+
+As a key contributor to the SEN Group’s reputation, Sri Venkateswara Minerals is committed to advanced manufacturing, rigorous quality control, and customer satisfaction. Continuous infrastructure upgrades and a highly skilled workforce enable the company to deliver exceptional service and high-grade minerals to clients across South India and beyond. Whether you are in need of specialized refractory materials or premium-quality industrial minerals, Sri Venkateswara Minerals stands ready as your reliable supply partner.
+
+## Industries We Serve
+
+Our minerals and raw materials cater to a wide spectrum of industries, including:
+
+## Refractory Industries
+
+## Cement Industries
+
+## Glass Industries
+
+## Tiles Industries
+
+## Sanitary Ware Industries
+
+---
+
+## PAGE: Sri Devi Minerals - senglobalgroup.com
+URL: https://senglobalgroup.com/sri-devi-minerals/
+
+## Sri Devi Minerals – Trusted Mineral Manufacturer Since 1973
+
+## Sri Devi Minerals – Trusted Mineral Manufacturer Since 1973
+
+Sri Devi Minerals, a reputed division of the SEN Group of Companies, has been a consistent and trusted name in the Indian mineral industry since its founding in 1981. With over five decades of experience, the company has earned a strong reputation for delivering high-quality mineral products with reliability and consistency. Headquartered at No. 94-C/3, 3rd Cross Street, Industrial Estate, Ambattur, Chennai – 600 058, and with operations extending to Salem, Sri Devi Minerals plays a vital role in the SEN Group’s legacy of excellence across South India.
+
+## Our Expertise
+
+We specialize in the production and supply of high-quality minerals such as Feldspar, Bentonite and Talc. Our advanced manufacturing processes and strict quality checks ensure that every product meets industry standards and customer expectations.
+
+## Manufacturing Infrastructure
+
+Locations: Chennai and Salem
+
+Machinery Installed: 1 Ball Mill 2 Three-Roller Mills
+
+1 Ball Mill
+
+2 Three-Roller Mills
+
+Production Capacity: 24,000 Tons Per Annum
+
+As an integral part of the SEN Group, Sri Devi Minerals is committed to blending experience, innovation, and service excellence to provide dependable mineral solutions. Our focus on quality assurance, on-time delivery, and customer satisfaction has enabled us to build enduring partnerships across the region.
+
+## Industries We Serve
+
+Our mineral products are widely used in:
+
+## Refractory Industries
+
+## Cement Industries
+
+## Glass Industries
+
+## Tiles Industries
+
+## Sanitary Ware Industries
+
+---
+
+## PAGE: Sri Rajalakshmi Minerals - senglobalgroup.com
+URL: https://senglobalgroup.com/sri-rajalakshmi-minerals/
+
+## Sri Rajalakshmi Minerals – A Reliable Name in Mineral Processing
+
+## Sri Rajalakshmi Minerals – A Reliable Name in Mineral Processing
+
+Sri Rajalakshmi Minerals, a proud member of the SEN Group of Companies, has been contributing to the mineral manufacturing sector since 1990. Located in Salem, the company has steadily built a reputation for reliability, precision, and consistent quality in mineral processing. Specializing in the production of industrial-grade minerals, Sri Rajalakshmi Minerals supports a variety of sectors with materials that meet stringent industry standards. With a focus on operational efficiency and product integrity, the company continues to play an important role within the SEN Group’s legacy of excellence.
+
+## Operational Overview
+
+Location: Salem
+
+Established: 1990
+
+Machinery Installed: 1 Ball Mill
+
+Annual Production Capacity: 6,000 Tons
+
+Backed by decades of experience and the strength of the SEN Group, Sri Rajalakshmi Minerals is dedicated to providing dependable, quality-driven mineral solutions for industrial applications.
+
+## Industries We Serve
+
+Our mineral products are widely used in:
+
+## Refractory Industries
+
+## Cement Industries
+
+## Glass Industries
+
+## Tiles Industries
+
+## Sanitary Ware Industries
+
+---
+
+## PAGE: Sri Kalaivani Minerals - senglobalgroup.com
+URL: https://senglobalgroup.com/sri-kalaivani-minerals/
+
+## Sri Kalaivani Minerals – Delivering Consistent Mineral Quality Since 2009
+
+## Sri Kalaivani Minerals – Delivering Consistent Mineral Quality Since 2009
+
+Sri Kalaivani Minerals, an integral part of the SEN Group of Companies, has been serving the mineral processing industry since 2009. Based in Salem, the company has earned a reputation for delivering consistent quality and reliability across a range of industrial applications. With a focus on precision manufacturing and timely delivery, Sri Kalaivani Minerals plays a key role in supporting the SEN Group’s mission to provide high-quality mineral solutions across South India. Its modern production setup and streamlined operations ensure efficiency and adherence to strict quality standards.
+
+## Operational Overview
+
+Location: Salem
+
+Established: 2009
+
+Machinery Installed: 2 Ball Mills
+
+Annual Production Capacity: 15,000 Tons
+
+As a trusted supplier within the SEN Group of Companies, Sri Kalaivani Minerals continues to support industries with dependable mineral products that align with evolving market requirements.
+
+Backed by decades of experience and the strength of the SEN Group, Sri Rajalakshmi Minerals is dedicated to providing dependable, quality-driven mineral solutions for industrial applications.
+
+## Industries We Serve
+
+Our mineral products are widely used in:
+
+## Refractory Industries
+
+## Cement Industries
+
+## Glass Industries
+
+## Tiles Industries
+
+## Sanitary Ware Industries
+
+---
+
+## PAGE: S.E.N Minerals - senglobalgroup.com
+URL: https://senglobalgroup.com/s-e-n-minerals/
+
+## S.E.N Minerals – Trusted Mineral Processing Since 1992
+
+## S.E.N Minerals – Trusted Mineral Processing Since 1992
+
+S.E.N Minerals, a key subsidiary of the SEN Group of Companies, has been a steady contributor to the mineral manufacturing industry since 1992. Strategically located in Salem, the company focuses on precision grinding and mineral processing tailored to industrial standards. With decades of operational experience, S.E.N Minerals upholds the SEN Group’s commitment to delivering reliable and quality-driven mineral solutions. Its efficient production unit is designed to support clients with consistent output and timely service.
+
+## Operational Overview
+
+Location: Salem
+
+Established: 1992
+
+Machinery Installed: 1 Ball Mill
+
+Annual Production Capacity: 6,000 Tons
+
+As part of the SEN Group’s extensive network, S.E.N Minerals continues to strengthen its role as a dependable source of processed minerals for industries across the region.
+
+## Industries We Serve
+
+Our mineral products are widely used in:
+
+## Refractory Industries
+
+## Cement Industries
+
+## Glass Industries
+
+## Tiles Industries
+
+## Sanitary Ware Industries
+
+---
+
+## PAGE: Projects - senglobalgroup.com
+URL: https://senglobalgroup.com/projects/
+
+## Projects
+
+---
+
+## PAGE: Contact Us - senglobalgroup.com
+URL: https://senglobalgroup.com/contact-us/
+
+# Contacts
+
+Contacts
+
+# We are always ready to help you and answer your questions
+
+Office Address
+
+No 450/1 Arcot Road Porur, Chennai, Tamil Nadu, India -600116
+
+Phone
+
++91 9841676853
+
+Follow Us
+
+E mail
+
+contactus.sengroup@yahoo.com
+
+# Get in Touch
+
+---
+
+## PAGE: Ball Clay - senglobalgroup.com
+URL: https://senglobalgroup.com/ball-clay/
+
+## Ball Clay
+
+## Sodium Bentonite
+
+## Ball Clay – Premium Ceramic & Refractory Clay
+
+At SEN Global Group, we supply premium-quality Ball Clay sourced from carefully selected mineral deposits and processed under strict quality control standards. Ball Clay is a highly plastic, fine-grained sedimentary clay widely used in ceramic, sanitary ware, tableware, tiles, refractories, and electrical porcelain manufacturing.
+
+Our Ball Clay offers excellent plasticity, high green strength, superior binding properties, and a light firing color, making it an ideal raw material for manufacturers seeking consistent product quality and enhanced production efficiency. With over 50 years of expertise in mineral processing, SEN Global Group delivers reliable Ball Clay solutions tailored to diverse industrial requirements.
+
+Our Ball Clay is available in multiple grades and particle sizes to suit different industrial applications. Customized specifications can also be provided based on customer requirements.
+
+Parameters
+
+Test Method
+
+Typical Values
+
+Al₂O₃
+
+XRF
+
+25 – 35%
+
+SiO₂
+
+XRF
+
+45 – 60%
+
+Fe₂O₃
+
+XRF
+
+Below 1.5%
+
+Moisture
+
+Standard Test
+
+Below 12%
+
+Color
+
+Visual
+
+Cream to Light Grey
+
+Form
+
+–
+
+Lumps / Powder
+
+### Industries & Applications
+
+🏺 Ceramic Industry – Ceramic tiles, wall tiles, floor tiles, vitrified tiles
+
+🚽 Sanitary Ware – Wash basins, toilets, sinks and sanitary products
+
+🍽️ Tableware & Porcelain – Crockery, porcelain products and fine ceramics
+
+🔥 Refractory Industry – Fire bricks, refractory castables and kiln linings
+
+🏗️ Pottery & Clay Products – Traditional pottery, artistic ceramics and clay articles
+
+## How We Produce Premium Quality Ball Clay
+
+At SEN Global Group, every stage of Ball Clay processing is carefully monitored to deliver superior quality, consistency, and industrial performance.
+
+## Raw Material Selection
+
+## Crushing
+
+Large clay lumps are crushed into smaller sizes for uniform processing and easier grinding.
+
+## Dying
+
+## Fine Grinding
+
+## Quality Testing
+
+## Packaging
+
+## Why Choose Ball Clay from SEN Global Group?
+
+At SEN Global Group, we ensure that our Bentonite meets high-quality standards for industrial applications.
+
+## Over 50 years of experience in mineral supply
+
+## In-house production & quality control
+
+## Customized grades and particle sizes
+
+## Trusted by foundries, drilling companies, and construction brands
+
+## Eco-Friendly & Non-Toxic
+
+## Timely delivery across India & exports
+
+To cater to different business needs, we provide Bentonite in various packaging sizes. Our packaging is designed to ensure safe transportation and long shelf life.
+
+## Contact Us Today!
+
+Looking for reliable Ball Clay suppliers? Contact SEN Global Group – your trusted mineral supplier.
+
+#### What is Ball Clay used for?
+
+#### What makes Ball Clay different from Kaolin?
+
+#### Is your Ball Clay suitable for ceramic tile manufacturing?
+
+Yes. Our Ball Clay is widely used in wall tiles, floor tiles, vitrified tiles, and porcelain tile production
+
+#### Can you supply customized grades?
+
+Yes. We offer customized Ball Clay grades based on particle size, chemical composition, and customer-specific manufacturing requirement
+
+#### Do you supply Ball Clay in bulk?
+
+#### What packaging options are available?
+
+We supply Ball Clay in 50 Kg bags, 1 Ton jumbo bags, and customized packaging according to customer requirements
