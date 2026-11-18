@@ -33,7 +33,7 @@
 
   const mm = gsap.matchMedia();
 
-  mm.add({ reduce: "(prefers-reduced-motion: reduce)", desktop: "(min-width: 901px)", fine: "(hover: hover) and (pointer: fine)" }, (ctx) => {
+  mm.add({ any: "all", reduce: "(prefers-reduced-motion: reduce)", desktop: "(min-width: 901px)", fine: "(hover: hover) and (pointer: fine)" }, (ctx) => {
     const { reduce, desktop, fine } = ctx.conditions;
 
     if (reduce) {

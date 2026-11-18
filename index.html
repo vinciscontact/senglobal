@@ -11,12 +11,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="images/site_senlogo.png">
   <link rel="preload" as="image" href="images/graded/hero-wide.webp" media="(min-width: 821px)">
-  <link rel="stylesheet" href="assets/css/style.css?v=21">
-  <link rel="stylesheet" href="assets/css/home.css?v=21">
+  <link rel="stylesheet" href="assets/css/style.css?v=22">
+  <link rel="stylesheet" href="assets/css/home.css?v=22">
   <script>
     // Every load starts at the top with the loader
     if ("scrollRestoration" in history) history.scrollRestoration = "manual";
     if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("show-pre");
+    // Failsafe: never leave the loader up if scripts fail to load
+    setTimeout(function () { document.documentElement.classList.remove("show-pre"); document.body && document.body.classList.remove("is-loading"); }, 8000);
   </script>
   <style>html:not(.show-pre) .pre{display:none}</style>
 </head>
@@ -216,8 +218,8 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
-<script src="assets/js/data.js?v=21"></script>
-<script src="assets/js/main.js?v=21"></script>
-<script src="assets/js/home.js?v=21"></script>
+<script src="assets/js/data.js?v=22"></script>
+<script src="assets/js/main.js?v=22"></script>
+<script src="assets/js/home.js?v=22"></script>
 </body>
 </html>

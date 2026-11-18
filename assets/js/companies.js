@@ -63,7 +63,7 @@
   gsap.registerPlugin(ScrollTrigger);
   gsap.defaults({ ease: "power3.out", duration: 0.9 });
 
-  gsap.matchMedia().add({ reduce: "(prefers-reduced-motion: reduce)", desktop: "(min-width: 901px)", fine: "(hover: hover) and (pointer: fine)" }, (ctx) => {
+  gsap.matchMedia().add({ any: "all", reduce: "(prefers-reduced-motion: reduce)", desktop: "(min-width: 901px)", fine: "(hover: hover) and (pointer: fine)" }, (ctx) => {
     const { reduce, desktop, fine } = ctx.conditions;
     if (reduce) return;
 
