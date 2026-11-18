@@ -4,102 +4,188 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>About — SEN Global Group</title>
-  <meta name="description" content="SEN Group of Companies, based in Chennai, is one of South India’s top mineral manufacturers with over 50 years of experience.">
-  <meta name="theme-color" content="#f4f2ee">
+  <meta name="description" content="SEN Group of Companies, based in Chennai, is one of South India’s top mineral manufacturers — five companies, own mines and over 50 years of experience since 1973.">
+  <meta name="theme-color" content="#171512">
   <link rel="icon" href="images/site_favicon1.png">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=7">
+  <link rel="stylesheet" href="assets/css/style.css?v=16">
+  <link rel="stylesheet" href="assets/css/home.css?v=16">
+  <link rel="stylesheet" href="assets/css/pages.css?v=16">
 </head>
-<body data-page="about">
+<body data-page="about" data-nav-over>
+<div class="grain" aria-hidden="true"></div>
 <main>
-  <section class="phero">
+
+  <!-- HERO -->
+  <section class="x-hero">
     <div class="wrap">
-      <nav class="crumbs rv"><a href="index.html">Home</a>/<span>About</span></nav>
-      <h1 class="display">Top minerals <em>manufacturing</em> &amp; mining company</h1>
-      <div class="phero__row">
-        <p class="lead rv">SEN Group of Companies, based in Chennai, is one of South India’s top mineral manufacturers. With over 50 years of experience, we are a trusted supplier of high-quality minerals used in refractories, cement, glass, tiles and ceramics.</p>
-        <span class="tag rv">Since 1973</span>
+      <nav class="crumbs" data-fade><a href="index.html">Home</a>/<span>About</span></nav>
+      <h1 class="x-title" data-lines aria-label="Fifty years of minerals.">
+        <span class="ln" aria-hidden="true"><span>Fifty years</span></span>
+        <span class="ln" aria-hidden="true"><span>of <em>minerals.</em></span></span>
+      </h1>
+      <div class="x-hero__row" data-fade>
+        <p class="lead">SEN Group of Companies, based in Chennai, is one of South India’s top mineral manufacturers — a trusted supplier to refractories, cement, glass, tiles and ceramics since 1973.</p>
+        <a class="btn btn--oxide magnet" href="#legacy">Our story <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      </div>
+      <div class="x-stats" data-fade>
+        <div><b>1973</b><span>Established</span></div>
+        <div><b>50<sup>+</sup></b><span>Years of experience</span></div>
+        <div><b>5</b><span>Group companies</span></div>
+        <div><b>91k<sup>t</sup></b><span>Capacity per year</span></div>
       </div>
     </div>
   </section>
 
-  <section class="banner"><img data-parallax="60" src="images/graded/plant-8576.webp" alt="Raw mineral yard at an SEN Group plant"></section>
+  <!-- WIDENING IMAGE BAND -->
+  <section class="a-band">
+    <figure class="a-band__frame" style="margin:0">
+      <img src="images/graded/plant-8576.webp" alt="Raw mineral yard at an SEN Group plant">
+      <figcaption>Raw mineral yard · Salem</figcaption>
+    </figure>
+  </section>
 
-  <section class="section">
-    <div class="wrap two two--label">
-      <div><span class="tag rv">Our legacy &amp; expertise</span></div>
+  <!-- LEGACY -->
+  <section class="a-legacy" id="legacy">
+    <div class="wrap a-legacy__grid">
+      <div><span class="tag">Our legacy &amp; expertise</span></div>
       <div>
-        <p class="statement" style="margin-bottom:28px">Established in 1973, SEN Group has grown into a leading mineral manufacturer with its own <em>mines</em> and advanced manufacturing units.</p>
-        <p class="lead rv" style="margin-bottom:16px">Our sub-companies — including Sri Venkateswara Minerals and Sri Devi Minerals — are well known in the industry. Owning our mines ensures a steady supply of high-quality minerals.</p>
-        <p class="lead rv">We take pride in delivering reliable, top-grade mineral products — with quality and consistency in every supply. Our focus on innovation, reliability and excellence makes us a trusted name in the mineral and industrial sector.</p>
+        <p class="lit" data-lit="own,mines,1973,trusted">Established in 1973, SEN Group has grown from a single grinding unit into a leading mineral manufacturer with its own mines, five companies and advanced manufacturing units across Tamil Nadu.</p>
+        <div class="a-legacy__cols" data-fade>
+          <p>Our sub-companies — including Sri Venkateswara Minerals and Sri Devi Minerals — are well known in the industry. Owning our mines ensures a steady supply of high-quality minerals.</p>
+          <p>We take pride in delivering reliable, top-grade mineral products with quality and consistency in every supply. Innovation, reliability and excellence make us a trusted name in the mineral and industrial sector.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
+  <!-- TIMELINE -->
+  <section class="tl">
+    <div class="wrap tl__grid">
+      <div class="tl__sticky">
+        <span class="tag">Timeline</span>
+        <h2 class="h2">Built over five decades.</h2>
+        <div class="tl__year" id="tl-year" aria-hidden="true">1973</div>
+      </div>
+      <div class="tl__list">
+        <span class="tl__spine" aria-hidden="true"><i></i></span>
+        <ol class="tl__ol">
+        <li class="tl__item" data-year="1973"><div class="tl__card">
+          <small>1973 · Chennai &amp; Gummudipoondi</small>
+          <h3>Sri Venkateswara Minerals</h3>
+          <p>The founding unit — a pioneering minerals grinding and manufacturing company that shaped the Group’s legacy in South India.</p>
+          <div class="meta"><span>40,000 t / year</span><span>2 ball mills</span><span>3 mesh plants</span></div>
+          <div class="tl__img" data-clip><img src="images/graded/plant-8583.webp" alt="Mill house at Sri Venkateswara Minerals" loading="lazy"></div>
+        </div></li>
+        <li class="tl__item" data-year="1981"><div class="tl__card">
+          <small>1981 · Ambattur, Chennai &amp; Salem</small>
+          <h3>Sri Devi Minerals</h3>
+          <p>Feldspar, bentonite and talc — built on advanced processes and strict quality checks.</p>
+          <div class="meta"><span>24,000 t / year</span><span>1 ball mill</span><span>2 three-roller mills</span></div>
+        </div></li>
+        <li class="tl__item" data-year="1990"><div class="tl__card">
+          <small>1990 · Salem</small>
+          <h3>Sri Rajalakshmi Minerals</h3>
+          <p>A reliable name in mineral processing, known for precision and consistent quality.</p>
+          <div class="meta"><span>6,000 t / year</span><span>1 ball mill</span></div>
+          <div class="tl__img" data-clip><img src="images/graded/plant-9593.webp" alt="Finished goods store" loading="lazy"></div>
+        </div></li>
+        <li class="tl__item" data-year="1992"><div class="tl__card">
+          <small>1992 · Salem</small>
+          <h3>S.E.N Minerals</h3>
+          <p>Precision grinding and mineral processing tailored to industrial standards.</p>
+          <div class="meta"><span>6,000 t / year</span><span>1 ball mill</span></div>
+        </div></li>
+        <li class="tl__item" data-year="2009"><div class="tl__card">
+          <small>2009 · Salem</small>
+          <h3>Sri Kalaivani Minerals</h3>
+          <p>A modern production setup with streamlined operations and timely delivery.</p>
+          <div class="meta"><span>15,000 t / year</span><span>2 ball mills</span></div>
+          <div class="tl__img" data-clip><img src="images/graded/plant-9592.webp" alt="Grinding mill at Sri Kalaivani Minerals" loading="lazy"></div>
+        </div></li>
+        <li class="tl__item" data-year="Now"><div class="tl__card">
+          <small>Today · Gummidipoondi</small>
+          <h3>SEN MOTTE rotary kiln plant</h3>
+          <p>A state-of-the-art chamotte plant with a rotary kiln firing at 1450°C — strengthening our supply of refractory raw materials.</p>
+          <div class="meta"><span>1 rotary kiln</span><span>1450°C</span><span>Al₂O₃ ≥ 45%</span></div>
+        </div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION / VISION -->
+  <section class="mvx">
+    <article>
+      <div><span class="tag">Mission</span><h2 style="margin-top:18px" data-fade>Quality minerals, delivered sustainably.</h2></div>
+      <p data-fade>To deliver high-quality industrial minerals with sustainability, innovation and efficiency — supporting ceramics, glass, construction and refractories with reliable, eco-friendly solutions at the highest industry standards.</p>
+      <div class="mvx__big" aria-hidden="true">Mission</div>
+    </article>
+    <article>
+      <div><span class="tag">Vision</span><h2 style="margin-top:18px" data-fade>A global leader in mineral manufacturing.</h2></div>
+      <p data-fade>To be known for quality, sustainability and innovation — expanding our reach, adopting cutting-edge technology and contributing to a greener future through responsible mining.</p>
+      <div class="mvx__big" aria-hidden="true">Vision</div>
+    </article>
+  </section>
+
+  <!-- VALUES -->
+  <section class="a-vals">
     <div class="wrap">
-      <div class="shead"><div><span class="tag rv">Timeline</span><h2 class="h2">A family of companies, built over five decades.</h2></div></div>
-      <ol class="timeline">
-        <li class="rv"><b>1973</b><span>Sri Venkateswara Minerals</span><small>Chennai · Gummudipoondi</small></li>
-        <li class="rv" style="--d:.08s"><b>1981</b><span>Sri Devi Minerals</span><small>Chennai · Salem</small></li>
-        <li class="rv" style="--d:.16s"><b>1990</b><span>Sri Rajalakshmi Minerals</span><small>Salem</small></li>
-        <li class="rv" style="--d:.24s"><b>1992</b><span>S.E.N Minerals</span><small>Salem</small></li>
-        <li class="rv" style="--d:.32s"><b>2009</b><span>Sri Kalaivani Minerals</span><small>Salem</small></li>
+      <div class="shead" style="margin-bottom:0"><div><span class="tag">Core values</span><h2 class="h2">What we stand for.</h2></div><p class="lead">Six principles that have guided every company in the group since 1973.</p></div>
+      <ol class="vals">
+        <li><i>01</i><b>Quality first</b><span>Strict checks at every stage</span></li>
+        <li><i>02</i><b>Customer commitment</b><span>Expert advice, on-time delivery</span></li>
+        <li><i>03</i><b>Sustainability</b><span>Responsible, eco-friendly mining</span></li>
+        <li><i>04</i><b>Innovation</b><span>Continuous R&amp;D, modern machinery</span></li>
+        <li><i>05</i><b>Integrity &amp; ethics</b><span>Trust built over five decades</span></li>
+        <li><i>06</i><b>Teamwork</b><span>A skilled workforce across five units</span></li>
       </ol>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
-    <div class="wrap mv">
-      <article class="rv"><span class="tag">Mission</span><h2 class="h3">Quality minerals, delivered sustainably.</h2><p>To deliver high-quality industrial minerals with sustainability, innovation and efficiency — supporting ceramics, glass, construction and refractories with reliable, eco-friendly mineral solutions at the highest industry standards.</p></article>
-      <article class="rv" style="--d:.1s"><span class="tag tag--light">Vision</span><h2 class="h3">A global leader in mineral manufacturing.</h2><p>To be known for our quality, sustainability and innovation — expanding our reach, adopting cutting-edge technology and contributing to a greener future through responsible mining and eco-friendly practices.</p></article>
-    </div>
-  </section>
-
-  <section class="section" style="padding-top:0">
-    <div class="wrap two">
-      <div><span class="tag rv">Our core values</span><h2 class="h2" style="margin-top:18px">What we stand for</h2></div>
-      <div class="values rv">
-        <span>Quality First</span><span>Customer Commitment</span><span>Sustainability</span><span>Innovation &amp; Excellence</span><span>Integrity &amp; Ethics</span><span>Teamwork</span>
+  <!-- STRENGTHS -->
+  <section class="a-str">
+    <div class="wrap">
+      <div class="shead"><div><span class="tag">Expertise</span><h2 class="h2">What makes us strong.</h2></div><p class="lead">The strengths that set us apart in the minerals industry — and help us deliver consistently.</p></div>
+      <div class="strx">
+        <article class="str"><div class="str__n">01</div><h3>Years of experience</h3><p>Over 50 years in minerals manufacturing — effective solutions for every type of client.</p></article>
+        <article class="str"><div class="str__n">02</div><h3>Advanced facilities</h3><p>Factories in Chennai, Salem, Mettur and Gummidipoondi, the latter focused on refractory raw materials.</p></article>
+        <article class="str"><div class="str__n">03</div><h3>Wide product range</h3><p>Feldspar, bentonite, cordierite, kyanite and more — for cement, glass, refractory, tiles and sanitary ware.</p></article>
+        <article class="str"><div class="str__n">04</div><h3>Commitment to quality</h3><p>Strict quality control at every stage, so every product meets industry standards.</p></article>
+        <article class="str"><div class="str__n">05</div><h3>Sustainability</h3><p>Sustainable mining practices that minimise impact and reduce our carbon footprint.</p></article>
+        <article class="str"><div class="str__n">06</div><h3>Strong relationships</h3><p>Long-term partners include ANUJ, Jyothy Labs, CUMI and Dalmia Refractories.</p></article>
+        <article class="str"><div class="str__n">07</div><h3>Innovation &amp; research</h3><p>Continuous investment in R&amp;D to improve products and manufacturing processes.</p></article>
+        <article class="str"><div class="str__n">08</div><h3>Customer-focused</h3><p>We understand each client’s needs — expert advice and the right product, on time.</p></article>
       </div>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
+  <!-- CLIENTS -->
+  <section class="section">
     <div class="wrap">
-      <div class="shead"><div><span class="tag rv">Expertise</span><h2 class="h2">What makes us strong</h2></div><p class="lead rv">The strengths that set us apart in the minerals industry — and help us deliver consistently.</p></div>
-      <div class="strengths">
-        <article class="rv"><span class="num">01</span><h3>Years of experience</h3><p>Over 50 years in minerals manufacturing gives us the expertise to provide effective solutions for all types of clients.</p></article>
-        <article class="rv" style="--d:.06s"><span class="num">02</span><h3>Advanced facilities</h3><p>Factories in Chennai, Salem, Mettur and Gummidipoondi — the latter focused on top-quality refractory raw materials.</p></article>
-        <article class="rv" style="--d:.12s"><span class="num">03</span><h3>Wide range of products</h3><p>Feldspar, bentonite, cordierite, kyanite and more — serving cement, glass, refractory, tiles and sanitary ware.</p></article>
-        <article class="rv" style="--d:.18s"><span class="num">04</span><h3>Commitment to quality</h3><p>Strict quality control at every stage of production, so our products meet industry standards.</p></article>
-        <article class="rv"><span class="num">05</span><h3>Focus on sustainability</h3><p>Sustainable mining practices that minimise environmental impact and reduce our carbon footprint.</p></article>
-        <article class="rv" style="--d:.06s"><span class="num">06</span><h3>Strong relationships</h3><p>Long-term partnerships with leading companies such as ANUJ, Jyothy Labs, CUMI and Dalmia Refractories.</p></article>
-        <article class="rv" style="--d:.12s"><span class="num">07</span><h3>Innovation &amp; research</h3><p>Continuous investment in R&amp;D to improve our products and manufacturing processes.</p></article>
-        <article class="rv" style="--d:.18s"><span class="num">08</span><h3>Customer-focused service</h3><p>We understand each client’s needs — offering expert advice and the best products on time, every time.</p></article>
-      </div>
+      <div class="shead"><div><span class="tag">Our clients</span><h2 class="h2">Trusted by leading brands in India.</h2></div><p class="lead">Long-term partners across refractory, cement, tiles, consumer goods and power.</p></div>
+      <div id="logos"></div>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
-    <div class="wrap">
-      <div class="shead"><div><span class="tag rv">Our clients</span><h2 class="h2">Trusted by leading brands in India</h2></div></div>
-      <div class="logos rv" id="logos"></div>
-    </div>
-  </section>
-
+  <!-- CTA -->
   <section class="cta">
     <div class="cta__img"><img src="images/graded/plant-8570.webp" alt="" loading="lazy"></div>
     <div class="wrap"><div class="cta__text">
       <span class="tag tag--light">Work with us</span>
       <h2 class="h1">Partner with SEN Group.</h2>
       <p class="lead">Reliable, top-grade minerals with consistent quality in every supply.</p>
-      <div class="cta__actions"><a class="btn btn--oxide" href="contact.html">Contact us <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><a class="btn btn--line-light" href="tel:+919841676853">+91 98416 76853</a></div>
+      <div class="cta__actions"><a class="btn btn--oxide magnet" href="contact.html">Contact us <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><a class="btn btn--line-light magnet" href="tel:+919841676853">+91 98416 76853</a></div>
     </div></div>
   </section>
+
 </main>
-<script src="assets/js/data.js?v=7"></script>
-<script src="assets/js/main.js?v=7"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="assets/js/data.js?v=16"></script>
+<script src="assets/js/main.js?v=16"></script>
+<script src="assets/js/fx.js?v=16"></script>
 </body>
 </html>

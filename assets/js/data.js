@@ -16,12 +16,12 @@ window.SEN = {
   industries: ["Refractory", "Cement", "Glass", "Tiles", "Sanitary Ware", "Ceramics"],
 
   clients: [
-    { name: "CUMI", img: "images/home_whatsapp-image-2025-03-29-at-2-42-26-pm-1.jpeg" },
-    { name: "Chettinad Cement", img: "images/home_whatsapp-image-2025-03-29-at-2-42-26-pm.jpeg" },
-    { name: "Jyothy Labs", img: "images/home_whatsapp-image-2025-03-29-at-2-42-27-pm-1.jpeg" },
-    { name: "ANUJ Tiles", img: "images/home_whatsapp-image-2025-03-29-at-2-42-27-pm.jpeg" },
-    { name: "BHEL", img: "images/home_whatsapp-image-2025-03-29-at-2-42-28-pm-1.jpeg" },
-    { name: "Dalmia Refractories", img: "images/home_whatsapp-image-2025-03-29-at-2-42-28-pm.jpeg" }
+    { name: "CUMI", sector: "Abrasives & refractories", img: "images/clients/cumi.png" },
+    { name: "Chettinad Cement", sector: "Cement", img: "images/clients/chettinad.png" },
+    { name: "Jyothy Labs", sector: "Consumer goods", img: "images/clients/jyothy.png" },
+    { name: "ANUJ Tiles", sector: "Ceramic tiles", img: "images/clients/anuj.png" },
+    { name: "BHEL", sector: "Power equipment", img: "images/clients/bhel.png" },
+    { name: "Dalmia Refractories", sector: "Refractories", img: "images/clients/dalmia.png" }
   ],
 
   companies: [

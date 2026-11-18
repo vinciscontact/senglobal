@@ -9,180 +9,211 @@
   <link rel="icon" href="images/site_favicon1.png">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/site_senlogo.png">
   <link rel="preload" as="image" href="images/graded/hero-wide.webp" media="(min-width: 821px)">
-  <link rel="stylesheet" href="assets/css/style.css?v=7">
+  <link rel="stylesheet" href="assets/css/style.css?v=16">
+  <link rel="stylesheet" href="assets/css/home.css?v=18">
+  <script>try{if(!sessionStorage.getItem("sen-pre")&&!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("show-pre")}catch(e){}</script>
+  <style>html:not(.show-pre) .pre{display:none}</style>
 </head>
-<body data-page="home" data-nav-over>
+<body data-page="home" class="home" data-nav-over>
+
+<!-- Preloader: 1973 → today -->
+<div class="pre" aria-hidden="true">
+  <div class="pre__top"><span class="pre__logo"><img src="images/site_senlogo.png" alt="" width="265" height="54"></span><span>Minerals mining &amp; manufacturing</span></div>
+  <div>
+    <div class="pre__year"><span id="pre-year">1973</span></div>
+    <div class="pre__bar"><i></i></div>
+  </div>
+  <div class="pre__bot"><span>Chennai · Salem · Mettur · Gummidipoondi</span><span>Est. 1973</span></div>
+</div>
+<div class="grain" aria-hidden="true"></div>
+
 <main>
 
-  <!-- HERO: real plant photograph -->
-  <section class="hero">
-    <div class="hero__media">
+  <!-- 01 HERO -->
+  <section class="h-hero" id="top">
+    <div class="h-hero__media">
       <picture>
         <source media="(max-width: 820px)" srcset="images/graded/hero-tall.webp">
         <img src="images/graded/hero-wide.webp" alt="Grinding mills and jumbo bags inside an SEN Group plant">
       </picture>
     </div>
-    <div class="wrap hero__inner">
-      <div class="hero__grid">
-        <div>
-          <span class="tag tag--light">Est. 1973 · Chennai, India</span>
-          <h1 class="display hero__title">Industrial minerals, mined &amp; milled in <em>South India.</em></h1>
-          <p class="lead">Feldspar, quartz, chamotte, bentonite, talc, limestone and more — from our own mines and plants to refractory, ceramics, glass, cement and tile makers.</p>
-          <div class="hero__actions">
-            <a class="btn btn--oxide" href="products.html">View products <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
-            <a class="btn btn--line-light" href="contact.html">Request a quote</a>
+    <div class="h-hero__shade"></div>
+    <div class="h-hero__meta"><div class="wrap"><span>Est. 1973 — Tamil Nadu, India</span><span>13.08° N, 80.27° E</span></div></div>
+    <div class="wrap h-hero__inner">
+      <h1 class="h-title" aria-label="Mined. Milled. Delivered.">
+        <span class="ln" aria-hidden="true"><span>Mined.</span></span>
+        <span class="ln" aria-hidden="true"><span>Milled.</span></span>
+        <span class="ln" aria-hidden="true"><span>Delivered.</span></span>
+      </h1>
+      <div class="h-hero__row">
+        <p class="lead h-fade">South India’s leading minerals manufacturer. Feldspar, quartz, chamotte, bentonite, talc and more — from our own mines and mills to refractory, ceramic, glass and cement makers.</p>
+        <div class="h-hero__side h-fade">
+          <div class="h-hero__actions">
+            <a class="btn btn--oxide magnet" href="#products">Explore minerals <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn--line-light magnet" href="contact.html">Request a quote</a>
           </div>
+          <span class="scroll-ind mono" style="color:rgba(255,255,255,.7)"><i></i>Scroll</span>
         </div>
-        <ul class="hero__facts">
-          <li><span>Established</span><b>1973</b></li>
-          <li><span>Annual capacity</span><b>91,000 t</b></li>
-          <li><span>Group companies</span><b>5</b></li>
-          <li><span>Plants</span><b>Chennai · Salem</b></li>
-        </ul>
       </div>
     </div>
   </section>
 
-  <nav class="strip" aria-label="Main products">
-    <ul>
-      <li><a href="product.html?id=feldspar">Feldspar</a></li>
-      <li><a href="product.html?id=quartz">Quartz</a></li>
-      <li><a href="product.html?id=chamotte">Chamotte</a></li>
-      <li><a href="product.html?id=bentonite">Bentonite</a></li>
-      <li><a href="product.html?id=talc">Talc</a></li>
-      <li><a href="product.html?id=limestone">Limestone</a></li>
-    </ul>
-  </nav>
-
-  <!-- WHO WE ARE -->
-  <section class="section">
-    <div class="wrap intro">
-      <div><span class="tag rv">Who we are</span></div>
+  <!-- 02 MANIFESTO -->
+  <section class="manifesto">
+    <div class="wrap manifesto__grid">
+      <div><span class="tag">Since 1973</span></div>
       <div>
-        <p class="statement rv">SEN Group of Companies is South India’s leading minerals manufacturer — we own and operate our <em>own mines</em> to guarantee quality and sustainability.</p>
-        <p class="lead rv" style="margin-top:24px">We specialise in feldspar, bentonite, cordierite, kyanite, insulator powder, sanitary powder and talc, serving the refractory, cement, glass, tiles and sanitary ware industries.</p>
-        <div class="facts rv">
-          <div><b>50+ years</b><span>in minerals manufacturing</span></div>
-          <div><b>4 locations</b><span>Chennai, Salem, Mettur, Gummidipoondi</span></div>
-          <div><b>1450°C</b><span>rotary kiln for SEN MOTTE chamotte</span></div>
+        <p class="manifesto__text" id="manifesto">For five decades we have turned raw earth from South India into the minerals that line furnaces, glaze tiles, strengthen glass and make cement — from our own mines, through our own mills, to industries across India and beyond.</p>
+        <div class="manifesto__foot">
+          <ul>
+            <li><b>50+</b><span>Years</span></li>
+            <li><b>91,000 t</b><span>Annual capacity</span></li>
+            <li><b>5</b><span>Group companies</span></li>
+          </ul>
+          <a class="link-arrow" href="about.html">Our story <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PRODUCTS (dark) -->
-  <section class="section dark">
-    <div class="wrap">
-      <div class="shead">
+  <!-- 03 PROCESS — pinned horizontal chapters -->
+  <section class="proc" id="process">
+    <div class="proc__head"><div class="wrap"><span class="tag">From rock to refined</span><div class="proc__progress"><i></i></div><span class="mono" style="color:#a39b8e" id="proc-count">01 / 05</span></div></div>
+    <div class="proc__track">
+      <div class="chap chap--intro">
         <div>
-          <span class="tag rv">Our products</span>
-          <h2 class="h2 rv">Fourteen minerals. One standard of quality.</h2>
-        </div>
-        <div class="rail-ctrl rv">
-          <a class="link-arrow" href="products.html">All products <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
-          <button type="button" data-rail-prev aria-label="Previous products"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 12H5M11 6l-6 6 6 6"/></svg></button>
-          <button type="button" data-rail-next aria-label="Next products"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></button>
+          <h2>Five steps.<br><span>One standard.</span></h2>
+          <p class="lead">Every tonne we ship passes through the same controlled sequence — in plants we own and operate.</p>
         </div>
       </div>
-      <div class="rail rv" id="product-rail"></div>
+      <article class="chap" data-step="1">
+        <div class="chap__media"><img src="images/graded/mine-pit.webp" alt="Haul truck in an open-pit mine" loading="lazy"></div>
+        <div>
+          <div class="chap__num">01</div>
+          <h3>Selective mining</h3>
+          <p>We own and operate our own mines — so quality is controlled from the very first tonne of ore, with responsible extraction and minimal environmental impact.</p>
+          <span class="chap__spec">Own mines · Tamil Nadu</span>
+        </div>
+      </article>
+      <article class="chap" data-step="2">
+        <div class="chap__media"><img src="images/graded/plant-9592.webp" alt="Grinding mill at a Salem plant" loading="lazy"></div>
+        <div>
+          <div class="chap__num">02</div>
+          <h3>Crushing &amp; grinding</h3>
+          <p>Ball mills, three-roller mills and mesh plants across Chennai and Salem crush, grind and screen each mineral to the exact mesh our clients specify.</p>
+          <span class="chap__spec">Ball mills · Roller mills · Mesh plants</span>
+        </div>
+      </article>
+      <article class="chap" data-step="3">
+        <div class="chap__media chap__media--contain"><img src="images/home_sen-motte-2.webp" alt="SEN MOTTE chamotte grains" loading="lazy"></div>
+        <div>
+          <div class="chap__num">03</div>
+          <h3>Fired at 1450°C</h3>
+          <p>At Gummidipoondi, our rotary kiln calcines clay into SEN MOTTE — a high-alumina chamotte with superior thermal resistance and mechanical strength.</p>
+          <span class="chap__spec">Rotary kiln · Al₂O₃ ≥ 45%</span>
+        </div>
+      </article>
+      <article class="chap" data-step="4">
+        <div class="chap__media"><img src="images/graded/plant-8566.webp" alt="Processing line with screening equipment" loading="lazy"></div>
+        <div>
+          <div class="chap__num">04</div>
+          <h3>Tested in-house</h3>
+          <p>Magnetic separation, particle grading and lab testing — XRF analysis for chemistry, plus checks on purity, moisture and particle size before dispatch.</p>
+          <span class="chap__spec">XRF · Purity · Mesh · Moisture</span>
+        </div>
+      </article>
+      <article class="chap" data-step="5">
+        <div class="chap__media"><img src="images/graded/plant-8559.webp" alt="Jumbo bags ready for dispatch" loading="lazy"></div>
+        <div>
+          <div class="chap__num">05</div>
+          <h3>Packed &amp; delivered</h3>
+          <p>50 kg bags, 1-ton jumbo bags or custom packaging — designed for safe transport and long shelf life, delivered across India and for export.</p>
+          <span class="chap__spec">50 kg · 1 ton · Custom</span>
+        </div>
+      </article>
     </div>
   </section>
 
-  <!-- CAPABILITIES -->
-  <section class="section">
-    <div class="wrap split">
-      <div class="split__media rv"><img src="images/graded/plant-9592.webp" alt="Grinding mill at an SEN Group plant in Salem" loading="lazy"><span class="caption">Grinding mill · Salem</span></div>
-      <div class="split__text">
-        <span class="tag rv">Why choose us</span>
-        <h2 class="h2 rv">Modern machines. Consistent supply.</h2>
-        <p class="lead rv">Modern machinery for fast, efficient mineral processing — minimising waste, improving quality and delivering a consistent, reliable supply across India.</p>
-        <ul class="caps rv">
-          <li><i>01</i><b>Own mines</b><span>Quality from the source</span></li>
-          <li><i>02</i><b>Rotary kiln &amp; ball mills</b><span>Precision processing</span></li>
-          <li><i>03</i><b>In-house lab testing</b><span>Every batch</span></li>
-          <li><i>04</i><b>50 kg · 1 ton · custom</b><span>Packed to your spec</span></li>
-        </ul>
+  <!-- 04 PRODUCT INDEX -->
+  <section class="idx" id="products">
+    <div class="wrap">
+      <div class="idx__head">
+        <div><span class="tag">Product index</span><h2 style="margin-top:16px">Fourteen<br>minerals</h2></div>
+        <p class="lead" style="max-width:40ch">Supplied in standard grades or customized to your industry — for refractory, ceramics, glass, cement, tiles and more.</p>
       </div>
+      <ul class="idx__list" id="idx"></ul>
     </div>
+    <figure class="preview" aria-hidden="true"><img alt=""><figcaption></figcaption></figure>
   </section>
 
-  <!-- STATS (oxide) -->
-  <section class="section oxide">
+  <!-- 05 NUMBERS -->
+  <section class="band">
+    <div class="band__line" aria-hidden="true">From rock <span>to refined</span> — from rock <span>to refined</span></div>
     <div class="wrap">
       <div class="stats">
-        <div class="stat rv"><div class="stat__num"><span data-count="50">0</span><sup>+</sup></div><p class="stat__label">Years of expertise in mining &amp; minerals</p></div>
-        <div class="stat rv" style="--d:.06s"><div class="stat__num"><span data-count="91000">0</span><sup>t</sup></div><p class="stat__label">Combined annual production capacity</p></div>
-        <div class="stat rv" style="--d:.12s"><div class="stat__num"><span data-count="5">0</span></div><p class="stat__label">Group companies across Tamil Nadu</p></div>
-        <div class="stat rv" style="--d:.18s"><div class="stat__num"><span data-count="14">0</span></div><p class="stat__label">Industrial minerals in our portfolio</p></div>
+        <div class="stat"><div class="stat__num"><span data-count="50">0</span><sup>+</sup></div><p class="stat__label">Years of expertise in mining &amp; minerals</p></div>
+        <div class="stat"><div class="stat__num"><span data-count="91000">0</span><sup>t</sup></div><p class="stat__label">Combined annual production capacity</p></div>
+        <div class="stat"><div class="stat__num"><span data-count="5">0</span></div><p class="stat__label">Group companies across Tamil Nadu</p></div>
+        <div class="stat"><div class="stat__num"><span data-count="14">0</span></div><p class="stat__label">Industrial minerals in our portfolio</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ENVIRONMENT + TECHNOLOGY -->
-  <section class="duo">
-    <article class="rv">
-      <img src="images/graded/mine-pit.webp" alt="Haul truck in an open-pit mine" loading="lazy">
-      <span class="tag tag--light">Environmental care</span>
-      <h3>Responsible extraction, minimal impact.</h3>
-      <p>We prioritise eco-friendly mining and sustainable processing — maintaining the highest standards of resource efficiency.</p>
-    </article>
-    <article class="rv" style="--d:.08s">
-      <img src="images/graded/plant-8583.webp" alt="Mill house with processing equipment" loading="lazy">
-      <span class="tag tag--light">Modern technology</span>
-      <div class="big">1450°C</div>
-      <h3>Rotary-kiln refining at Gummidipoondi.</h3>
-      <p>Our Gummidipoondi factory produces refractory raw materials, including SEN MOTTE chamotte, for superior industrial performance.</p>
-    </article>
-  </section>
-
-  <!-- MAP (dark) -->
-  <section class="section dark">
+  <!-- 06 FOOTPRINT -->
+  <section class="section dark h-map">
     <div class="wrap map">
-      <div class="map__fig rv">
+      <div class="map__fig">
         <img src="images/site_india-map-3-1.png" alt="Map of India" loading="lazy">
         <div class="pin pin--r" style="left:44.1%;top:75.5%"><i></i><span>Chennai · Gummidipoondi</span></div>
         <div class="pin pin--l" style="left:38.2%;top:80.6%"><i></i><span>Salem · Mettur</span></div>
       </div>
       <div>
-        <span class="tag rv">Our footprint</span>
-        <h2 class="h2 rv" style="margin-top:16px">Rooted in Tamil Nadu. Supplying India &amp; beyond.</h2>
-        <ul class="loc-list rv">
+        <span class="tag">Our footprint</span>
+        <h2 class="h2" style="margin-top:16px">Rooted in Tamil Nadu. Supplying India &amp; beyond.</h2>
+        <ul class="loc-list">
           <li><b>Chennai</b><span>Head office · Porur, Ambattur</span></li>
           <li><b>Gummidipoondi</b><span>Rotary kiln · chamotte</span></li>
           <li><b>Salem</b><span>Four grinding units</span></li>
           <li><b>Mettur</b><span>Manufacturing facility</span></li>
         </ul>
+        <p style="margin-top:28px"><a class="link-arrow" href="companies.html" style="color:#fff">Our group companies <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
       </div>
     </div>
   </section>
 
-  <!-- CLIENTS -->
-  <section class="section">
-    <div class="wrap">
-      <div class="shead"><div><span class="tag rv">Our clients</span><h2 class="h2 rv">Trusted by leading brands in India.</h2></div><p class="lead rv">Long-term partners across refractory, cement, tiles, consumer goods and power.</p></div>
-      <div class="logos rv" id="logos"></div>
-    </div>
+  <!-- 07 CLIENTS -->
+  <section class="cl">
+    <div class="wrap"><div class="shead" style="margin-bottom:0"><div><span class="tag">Our clients</span><h2 class="h2">Trusted by leading brands in India.</h2></div><p class="lead">Long-term partners across refractory, cement, tiles, consumer goods and power.</p></div></div>
+    <div class="wrap"><div class="clients" id="logos" style="margin-top:clamp(28px,3vw,44px)"></div></div>
   </section>
 
-  <!-- CTA -->
-  <section class="cta">
-    <div class="cta__img"><img src="images/graded/plant-8559.webp" alt="" loading="lazy"></div>
+  <!-- 08 FINAL CTA -->
+  <section class="fin">
+    <div class="fin__bg"><img src="images/graded/plant-8570.webp" alt="" loading="lazy"></div>
     <div class="wrap">
-      <div class="cta__text">
-        <span class="tag tag--light">Ready for your next project?</span>
-        <h2 class="h1">Tell us the grade. We’ll handle the rest.</h2>
-        <p class="lead">Share your mineral, mesh size and monthly quantity — we’ll come back with specifications and a quote.</p>
-        <div class="cta__actions">
-          <a class="btn btn--oxide" href="contact.html">Request a quote <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
-          <a class="btn btn--line-light" href="tel:+919841676853">+91 98416 76853</a>
+      <span class="tag">Start an order</span>
+      <h2 class="fin__big" aria-label="Let’s talk minerals.">
+        <span class="ln" aria-hidden="true"><span>Let’s talk</span></span>
+        <span class="ln" aria-hidden="true"><span><em>minerals.</em></span></span>
+      </h2>
+      <div class="fin__row">
+        <p class="lead">Tell us your mineral, grade, mesh size and monthly quantity — we’ll come back with specifications and a quote.</p>
+        <div class="h-hero__actions">
+          <a class="btn btn--oxide btn--big magnet" href="contact.html">Request a quote <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--line-light btn--big magnet" href="tel:+919841676853">+91 98416 76853</a>
         </div>
       </div>
     </div>
   </section>
 
 </main>
-<script src="assets/js/data.js?v=7"></script>
-<script src="assets/js/main.js?v=7"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="assets/js/data.js?v=16"></script>
+<script src="assets/js/main.js?v=16"></script>
+<script src="assets/js/home.js?v=17"></script>
 </body>
 </html>

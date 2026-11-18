@@ -23,6 +23,8 @@
     "alumina-grog": "Refractory > 1750°C", "ball-clay": "Al₂O₃ 25–35%"
   };
 
+  D.key = KEY;
+
   /* ---------------- Chrome ---------------- */
   const active = (p) => (page === p ? ' class="is-active" aria-current="page"' : "");
   document.body.insertAdjacentHTML("afterbegin", `
@@ -68,11 +70,16 @@
         <div><h5>Products</h5><ul>${D.products.slice(0, 7).map((p) => `<li><a href="product.html?id=${p.id}">${esc(p.name)}</a></li>`).join("")}<li><a href="products.html">All products →</a></li></ul></div>
         <div><h5>Contact</h5><ul><li>${esc(D.contact.address)}</li><li><a href="${D.contact.phoneHref}">${D.contact.phone}</a></li><li><a href="mailto:${D.contact.email}">${D.contact.email}</a></li></ul></div>
       </div>
-      <div class="footer__word" aria-hidden="true">SEN GLOBAL</div>
-      <div class="footer__bot"><span>© ${new Date().getFullYear()} SEN Global Group</span><span>Minerals mining &amp; manufacturing · Est. 1973</span></div>
+      <div class="footer__word" aria-hidden="true"><span>SEN Global</span></div>
+      <div class="footer__bot"><span>© ${new Date().getFullYear()} SEN Global Group · Est. 1973</span><span class="footer__credit">Designed by <a href="https://vincisglobal.com" target="_blank" rel="noopener">The Vincis</a></span></div>
     </div>
   </footer>
   <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer"><img alt=""><button class="lb-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button class="lb-prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 6l-6 6 6 6"/></svg></button><button class="lb-next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg></button></div>`);
+
+  // Footer wordmark spans the full content width
+  const fw = $(".footer__word"), fws = $(".footer__word span");
+  const fitWord = () => { fws.style.transform = "none"; const k = fw.clientWidth / fws.getBoundingClientRect().width; fws.style.transform = `scale(${k})`; fw.style.height = fws.getBoundingClientRect().height + "px"; };
+  document.fonts?.ready.then(fitWord); addEventListener("resize", fitWord); fitWord();
 
   // Nav: solid after hero, hide on scroll down
   const nav = $("#nav"), mega = $("#mega"), megaBtn = $("[data-mega]");
@@ -92,7 +99,11 @@
     el.addEventListener("mouseenter", () => { clearTimeout(megaT); if (matchMedia("(hover:hover)").matches) setMega(true); });
     el.addEventListener("mouseleave", () => { megaT = setTimeout(() => setMega(false), 200); });
   });
-  addEventListener("keydown", (e) => { if (e.key === "Escape") { setMega(false); closeLB(); } });
+  addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { setMega(false); closeLB(); }
+    if (lb.classList.contains("is-open") && e.key === "ArrowRight") openLB(lbI + 1);
+    if (lb.classList.contains("is-open") && e.key === "ArrowLeft") openLB(lbI - 1);
+  });
 
   const mBtn = $(".nav__menu-btn");
   mBtn.addEventListener("click", () => {
@@ -134,7 +145,10 @@
   if (grid) grid.innerHTML = D.products.map((p, i) => pcard(p, i, " rv")).join("");
 
   const logos = $("#logos");
-  if (logos) logos.innerHTML = D.clients.map((c) => `<div><img src="${c.img}" alt="${esc(c.name)}" loading="lazy"></div>`).join("");
+  if (logos) {
+    logos.classList.add("clients"); logos.classList.remove("logos");
+    logos.innerHTML = D.clients.map((c, i) => `<figure class="client" style="margin:0"><div class="client__logo"><img src="${c.img}" alt="${esc(c.name)} logo" loading="lazy"></div><figcaption class="client__meta"><b>${esc(c.name)}</b><span>${esc(c.sector || "")}</span></figcaption></figure>`).join("");
+  }
 
   /* ---------------- Product detail ---------------- */
   if (page === "product") {
@@ -253,6 +267,7 @@
   const lb = $(".lightbox"); let lbI = 0;
   function openLB(i) { const L = window.__lb; if (!L) return; lbI = (i + L.length) % L.length; const im = $("img", lb); im.src = L[lbI][0]; im.alt = L[lbI][1]; lb.classList.add("is-open"); }
   function closeLB() { lb.classList.remove("is-open"); }
+  window.SENopenLB = openLB;
   $(".lb-close", lb).addEventListener("click", closeLB);
   $(".lb-prev", lb).addEventListener("click", () => openLB(lbI - 1));
   $(".lb-next", lb).addEventListener("click", () => openLB(lbI + 1));
