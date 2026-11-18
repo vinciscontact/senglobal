@@ -31,7 +31,7 @@
 
     /* Smooth scroll */
     if (window.Lenis) {
-      const lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+      const lenis = new Lenis({ lerp: 0.14, smoothWheel: true, wheelMultiplier: 1.05 });
       window.__lenis = lenis;
       document.documentElement.classList.add("has-lenis");
       lenis.on("scroll", ScrollTrigger.update);
@@ -120,11 +120,17 @@
       // Pinned film strip (desktop)
       const track = $(".reel__track");
       if (desktop && track) {
+        const reel = $(".reel");
         const dist = () => track.scrollWidth - innerWidth + parseFloat(getComputedStyle(track).paddingLeft);
+        const frame = document.createElement("div"); frame.className = "hs-sticky";
+        while (reel.firstChild) frame.appendChild(reel.firstChild);
+        reel.appendChild(frame); reel.classList.add("is-hs");
+        const size = () => (reel.style.height = dist() + innerHeight + "px");
+        size(); ScrollTrigger.addEventListener("refreshInit", size);
         const frames = $$(".reel__item");
         const horiz = gsap.to(track, {
           x: () => -dist(), ease: "none",
-          scrollTrigger: { trigger: ".reel", pin: true, scrub: 0.8, start: "top top", end: () => "+=" + dist(), invalidateOnRefresh: true,
+          scrollTrigger: { trigger: reel, scrub: 0.6, start: "top top", end: "bottom bottom", invalidateOnRefresh: true,
             onUpdate: (st) => {
               gsap.set(".reel__progress i", { scaleX: st.progress });
               const n = Math.min(frames.length, Math.round(st.progress * (frames.length - 1)) + 1);
@@ -146,7 +152,6 @@
 
     if (desktop && document.querySelector(".cta")) gsap.from(".cta__text > *", { autoAlpha: 0, y: 34, stagger: 0.09, scrollTrigger: { trigger: ".cta", start: "top 70%" } });
 
-    document.fonts?.ready.then(() => ScrollTrigger.refresh());
     addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
   });
 })();

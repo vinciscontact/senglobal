@@ -24,6 +24,9 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const fmt = (n) => n.toLocaleString("en-IN");
   const pad = (n) => String(n).padStart(2, "0");
+  // phone-sized alternative for plant/mine photos
+  const srcset = (src) => /\/graded\/(plant-\d+|mine-pit)\.webp$/.test(src) ? ` srcset="${src.replace(".webp", "-800.webp")} 800w, ${src} 1400w" sizes="(max-width: 900px) 100vw, 50vw"` : "";
+  window.SENsrcset = srcset;
 
   // Headline spec shown on each product card
   const KEY = {
@@ -51,9 +54,9 @@
       <button class="nav__menu-btn" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
     </div>
     <div class="mega" id="mega"><div class="mega__in">
-      <div><h4>Products</h4><ul>${D.products.map((p) => `<li><a href="product.html?id=${p.id}"><img src="${p.img}" alt="" loading="lazy">${esc(p.name)}</a></li>`).join("")}</ul></div>
+      <div><h4>Products</h4><ul>${D.products.map((p) => `<li><a href="product.html?id=${p.id}"><img data-src="images/thumbs/${p.img.split("/").pop().replace(/\.(png|jpe?g|webp)$/, ".webp")}" alt="" width="34" height="34">${esc(p.name)}</a></li>`).join("")}</ul></div>
       <div class="mega__companies"><h4>Group of Companies</h4><ul>${D.companies.map((c) => `<li><a href="companies.html#${c.id}">${esc(c.name)}</a></li>`).join("")}</ul><p style="margin:18px 0 0"><a class="link-arrow" href="products.html">All products ${ARR_S}</a></p></div>
-      <a class="mega__feature" href="product.html?id=chamotte"><img src="images/graded/plant-8570.webp" alt=""><span>SEN MOTTE chamotte, fired at 1450°C in our own rotary kiln</span></a>
+      <a class="mega__feature" href="product.html?id=chamotte"><img data-src="images/graded/plant-8570-800.webp" alt=""><span>SEN MOTTE chamotte, fired at 1450°C in our own rotary kiln</span></a>
     </div></div>
   </header>
   <nav class="mmenu" aria-label="Mobile">
@@ -105,7 +108,8 @@
   addEventListener("scroll", onScroll, { passive: true }); onScroll();
 
   let megaT;
-  const setMega = (o) => { mega.classList.toggle("is-open", o); megaBtn.setAttribute("aria-expanded", o); if (overHero) nav.classList.toggle("is-solid", o || scrollY > innerHeight * 0.6); };
+  const loadMegaImgs = () => $$("#mega img[data-src]").forEach((i) => { i.src = i.dataset.src; i.removeAttribute("data-src"); });
+  const setMega = (o) => { if (o) loadMegaImgs(); mega.classList.toggle("is-open", o); megaBtn.setAttribute("aria-expanded", o); if (overHero) nav.classList.toggle("is-solid", o || scrollY > innerHeight * 0.6); };
   megaBtn.addEventListener("click", () => setMega(!mega.classList.contains("is-open")));
   [megaBtn, mega].forEach((el) => {
     el.addEventListener("mouseenter", () => { clearTimeout(megaT); if (matchMedia("(hover:hover)").matches) setMega(true); });
@@ -226,7 +230,7 @@
     </div></section>
 
     <section class="cta">
-      <div class="cta__img"><img src="images/graded/plant-8559.webp" alt="" loading="lazy"></div>
+      <div class="cta__img"><img src="images/graded/plant-8559.webp"${srcset("images/graded/plant-8559.webp")} alt="" loading="lazy" decoding="async"></div>
       <div class="wrap"><div class="cta__text">
         <span class="tag tag--light">Order today</span>
         <h2 class="h1">Order ${esc(p.name.toLowerCase())} from SEN Global Group</h2>
@@ -272,7 +276,7 @@
       ["plant-9591", "Ball mill unit"], ["plant-8583", "Mill house"], ["plant-8576", "Raw mineral yard"],
       ["plant-9593", "Finished goods store"], ["plant-8570", "Grinding & bagging hall"], ["plant-8578", "Stockpiles & yard"]
     ];
-    gal.innerHTML = items.map(([f, cap], i) => `<figure class="rv" style="--d:${(i % 3) * 0.06}s" data-i="${i}"><img src="images/graded/${f}.webp" alt="${esc(cap)}" loading="lazy"><figcaption>${pad(i + 1)} · ${esc(cap)}</figcaption></figure>`).join("");
+    gal.innerHTML = items.map(([f, cap], i) => `<figure class="rv" style="--d:${(i % 3) * 0.06}s" data-i="${i}"><img src="images/graded/${f}.webp"${srcset(`images/graded/${f}.webp`)} alt="${esc(cap)}" loading="lazy" decoding="async"><figcaption>${pad(i + 1)} · ${esc(cap)}</figcaption></figure>`).join("");
     window.__lb = items.map(([f, c]) => [`images/graded/${f}.webp`, c]);
     gal.addEventListener("click", (e) => { const f = e.target.closest("figure"); if (f) openLB(+f.dataset.i); });
   }

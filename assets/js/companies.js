@@ -41,7 +41,7 @@
     return `
     <article class="g-co" id="${c.id}">
       <div class="g-co__media">
-        <div class="g-co__frame"><img src="${c.img}" alt="${esc(c.name)} facility" loading="lazy"><span class="g-co__tagline">${esc(town(c))} · Est. ${c.since}</span></div>
+        <div class="g-co__frame"><img src="${c.img}"${window.SENsrcset ? window.SENsrcset(c.img) : ""} alt="${esc(c.name)} facility" loading="lazy" decoding="async"><span class="g-co__tagline">${esc(town(c))} · Est. ${c.since}</span></div>
       </div>
       <div class="g-co__body">
         <div class="g-co__year" aria-hidden="true">${c.since}</div>
@@ -69,7 +69,7 @@
     if (reduce) return;
 
     if (window.Lenis) {
-      const lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+      const lenis = new Lenis({ lerp: 0.14, smoothWheel: true, wheelMultiplier: 1.05 });
       window.__lenis = lenis;
       document.documentElement.classList.add("has-lenis");
       lenis.on("scroll", ScrollTrigger.update);
@@ -124,7 +124,6 @@
       });
     }
 
-    document.fonts?.ready.then(() => ScrollTrigger.refresh());
     addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
   });
 })();

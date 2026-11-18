@@ -5,6 +5,7 @@
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const pad = (n) => String(n).padStart(2, "0");
+  const thumb = (src) => "images/thumbs/" + src.split("/").pop().replace(/\.(png|jpe?g|webp)$/, ".webp");
   const ARR = '<svg class="idx__arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12h15M13 6l6 6-6 6"/></svg>';
 
   /* ---------- Content: product index + client marquee ---------- */
@@ -14,7 +15,7 @@
       <span class="idx__name">${esc(p.name)}${p.badge ? `<span class="idx__badge">${p.badge}</span>` : ""}</span>
       <span class="idx__spec">${esc(D.key[p.id] || "")}</span>
       ${ARR}
-      <img class="idx__thumb" src="${p.img}" alt="" loading="lazy">
+      <img class="idx__thumb" src="${thumb(p.img)}" alt="" loading="lazy" decoding="async" width="56" height="56">
     </a></li>`).join("");
 
   // Manifesto: split into words (kept as real text for screen readers)
@@ -47,7 +48,7 @@
     /* ---------- Smooth scroll (Lenis drives ScrollTrigger) ---------- */
     let lenis;
     if (window.Lenis) {
-      lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+      lenis = new Lenis({ lerp: 0.14, smoothWheel: true, wheelMultiplier: 1.05 });
       document.documentElement.classList.add("has-lenis");
       lenis.on("scroll", ScrollTrigger.update);
       const raf = (t) => lenis.raf(t * 1000);
@@ -64,11 +65,11 @@
     const showPre = document.documentElement.classList.contains("show-pre");
     gsap.set(".h-title .ln > span", { yPercent: 115 });
     gsap.set(".h-fade, .h-hero__meta", { autoAlpha: 0, y: 24 });
-    gsap.set(".h-hero__media", { clipPath: "inset(14% 12% 14% 12%)" });
+    if (desktop) gsap.set(".h-hero__media", { clipPath: "inset(14% 12% 14% 12%)" }); else gsap.set(".h-hero__media", { autoAlpha: 0 }); // phones: cheaper fade instead of a full-screen clip
     gsap.set(".h-hero__media img", { scale: 1.35 });
 
-    const intro = gsap.timeline({ paused: true, onComplete: () => { buildHeroScroll(); ScrollTrigger.refresh(); } })
-      .to(".h-hero__media", { clipPath: "inset(0% 0% 0% 0%)", duration: 1.5, ease: "expo.inOut" })
+    const intro = gsap.timeline({ paused: true, onComplete: () => buildHeroScroll() })
+      .to(".h-hero__media", desktop ? { clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "expo.inOut" } : { autoAlpha: 1, duration: 0.8, ease: "power2.out" })
       .to(".h-hero__media img", { scale: 1, duration: 1.9, ease: "expo.out" }, "<")
       .to(".h-title .ln > span", { yPercent: 0, duration: 1.15, stagger: 0.11, ease: "power4.out" }, "-=0.95")
       .to(".h-hero__meta, .h-fade", { autoAlpha: 1, y: 0, stagger: 0.08, duration: 0.9 }, "-=0.7");
@@ -77,11 +78,11 @@
       document.body.classList.add("is-loading"); lenis?.scrollTo(0, { immediate: true, force: true }); lenis?.stop();
       const yr = { v: 1973 }, end = new Date().getFullYear();
       gsap.timeline({ onComplete: () => { done(); lenis?.start(); } })
-        .to(yr, { v: end, duration: 1.5, ease: "power2.inOut", onUpdate: () => ($("#pre-year").textContent = Math.round(yr.v)) })
-        .to(".pre__bar i", { scaleX: 1, duration: 1.5, ease: "power2.inOut" }, 0)
+        .to(yr, { v: end, duration: 1.1, ease: "power2.inOut", onUpdate: () => ($("#pre-year").textContent = Math.round(yr.v)) })
+        .to(".pre__bar i", { scaleX: 1, duration: 1.1, ease: "power2.inOut" }, 0)
         .from(".pre__logo", { autoAlpha: 0, y: 28, scale: 0.92, duration: 0.9, ease: "power3.out" }, 0)
         .from(".pre__top > span:last-child, .pre__bot", { autoAlpha: 0, duration: 0.8 }, 0.2)
-        .to(".pre", { yPercent: -100, duration: 1, ease: "expo.inOut" }, "+=0.15")
+        .to(".pre", { yPercent: -100, duration: 0.85, ease: "expo.inOut" }, "+=0.1")
         .add(() => intro.play(), "-=0.55");
     } else {
       done(); intro.play();
@@ -92,9 +93,8 @@
     const buildHeroScroll = () => {
       const heroTl = gsap.timeline({ scrollTrigger: { trigger: ".h-hero", start: "top top", end: "bottom top", scrub: true } });
       heroTl.fromTo(".h-hero__media img", { scale: 1, yPercent: 0 }, { scale: 1.14, yPercent: 8, ease: "none", immediateRender: false }, 0)
-        .fromTo(".h-title", { yPercent: 0 }, { yPercent: -18, ease: "none", immediateRender: false }, 0)
+        .fromTo(".h-title", { yPercent: 0, scaleX: 1 }, { yPercent: -18, scaleX: desktop ? 0.8 : 1, ease: "none", immediateRender: false }, 0)
         .fromTo(".h-hero__row, .h-hero__meta", { autoAlpha: 1, y: 0 }, { autoAlpha: 0, y: -40, ease: "none", immediateRender: false }, 0);
-      if (desktop) heroTl.fromTo(".h-title", { "--wdth": 100 }, { "--wdth": 64, ease: "none", immediateRender: false }, 0);
     };
 
     /* ---------- Manifesto: words light up as you read ---------- */
@@ -107,12 +107,20 @@
     /* ---------- Process: pinned horizontal chapters (desktop) ---------- */
     const track = $(".proc__track");
     if (desktop) {
+      const proc = $(".proc");
       const dist = () => track.scrollWidth - innerWidth;
+      // wrap contents in a sticky frame; the section's height provides the scroll distance
+      const frame = document.createElement("div"); frame.className = "hs-sticky";
+      while (proc.firstChild) frame.appendChild(proc.firstChild);
+      proc.appendChild(frame); proc.classList.add("is-hs");
+      const size = () => (proc.style.height = dist() + innerHeight + "px");
+      size(); ScrollTrigger.addEventListener("refreshInit", size);
+      ctx.add(() => () => { ScrollTrigger.removeEventListener("refreshInit", size); proc.style.height = ""; proc.classList.remove("is-hs"); while (frame.firstChild) proc.insertBefore(frame.firstChild, frame); frame.remove(); });
       const steps = $$(".chap[data-step]");
       const horiz = gsap.to(track, {
         x: () => -dist(), ease: "none",
         scrollTrigger: {
-          trigger: ".proc", pin: true, scrub: 0.8, start: "top top", end: () => "+=" + dist(), invalidateOnRefresh: true,
+          trigger: proc, scrub: 0.6, start: "top top", end: "bottom bottom", invalidateOnRefresh: true,
           onUpdate: (st) => {
             gsap.set(".proc__progress i", { scaleX: st.progress });
             const n = Math.min(steps.length, Math.max(1, Math.round(st.progress * (steps.length - 1)) + 1));
@@ -209,7 +217,6 @@
     }
 
     // Layout settles after images/fonts load
-    document.fonts?.ready.then(() => ScrollTrigger.refresh());
     addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
   });
 })();

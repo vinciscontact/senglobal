@@ -8,9 +8,9 @@
   <meta name="description" content="Feldspar, quartz, chamotte, bentonite, talc, limestone, cordierite, kyanite, silicon carbide, manganese, alumina grog and more, sourced and processed to the highest industry standards.">
   <meta name="theme-color" content="#f4f2ee">
   <link rel="icon" href="images/site_favicon1.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=22">
+  <link rel="preload" href="assets/fonts/Archivo-400-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=26">
 </head>
 <body data-page="products">
 <main>
@@ -41,7 +41,7 @@
   </section>
 
   <section class="cta">
-    <div class="cta__img"><img src="images/graded/plant-8559.webp" alt="" loading="lazy"></div>
+    <div class="cta__img"><img src="images/graded/plant-8559.webp" srcset="images/graded/plant-8559-800.webp 800w, images/graded/plant-8559.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" decoding="async" alt="" loading="lazy"></div>
     <div class="wrap"><div class="cta__text">
       <span class="tag tag--light">Custom grades</span>
       <h2 class="h1">Need a specific grade or mesh?</h2>
@@ -50,7 +50,7 @@
     </div></div>
   </section>
 </main>
-<script src="assets/js/data.js?v=22"></script>
-<script src="assets/js/main.js?v=24"></script>
+<script src="assets/js/data.js?v=26"></script>
+<script src="assets/js/main.js?v=26"></script>
 </body>
 </html>

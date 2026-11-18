@@ -16,12 +16,12 @@ window.SEN = {
   industries: ["Refractory", "Cement", "Glass", "Tiles", "Sanitary Ware", "Ceramics"],
 
   clients: [
-    { name: "CUMI", sector: "Abrasives & refractories", img: "images/clients/cumi.png" },
-    { name: "Chettinad Cement", sector: "Cement", img: "images/clients/chettinad.png" },
-    { name: "Jyothy Labs", sector: "Consumer goods", img: "images/clients/jyothy.png" },
-    { name: "ANUJ Tiles", sector: "Ceramic tiles", img: "images/clients/anuj.png" },
-    { name: "BHEL", sector: "Power equipment", img: "images/clients/bhel.png" },
-    { name: "Dalmia Refractories", sector: "Refractories", img: "images/clients/dalmia.png" }
+    { name: "CUMI", sector: "Abrasives & refractories", img: "images/clients/cumi.webp" },
+    { name: "Chettinad Cement", sector: "Cement", img: "images/clients/chettinad.webp" },
+    { name: "Jyothy Labs", sector: "Consumer goods", img: "images/clients/jyothy.webp" },
+    { name: "ANUJ Tiles", sector: "Ceramic tiles", img: "images/clients/anuj.webp" },
+    { name: "BHEL", sector: "Power equipment", img: "images/clients/bhel.webp" },
+    { name: "Dalmia Refractories", sector: "Refractories", img: "images/clients/dalmia.webp" }
   ],
 
   companies: [
@@ -135,7 +135,7 @@ window.SEN = {
       ],
       specs: [["Purity", "Up to 99.5% SiO₂"], ["Color", "White, milky, translucent or clear"], ["Form", "Lumps, grits and powder"], ["Size", "Custom sizes as per requirement"], ["Hardness", "7 (Mohs)"]],
       types: [
-        { name: "Quartz Grits", desc: "Crushed and screened quartz for uniform size", img: "images/quartz_quartz-grits.png" },
+        { name: "Quartz Grits", desc: "Crushed and screened quartz for uniform size", img: "images/quartz_quartz-grits.webp" },
         { name: "Quartz Lumps", desc: "Raw and naturally extracted quartz", img: "images/quartz_quartz-lumps.webp" },
         { name: "Quartz Powder", desc: "Finely ground quartz for industrial use", img: "images/quartz_quartz-powder.webp" }
       ],
@@ -211,7 +211,7 @@ window.SEN = {
       short: "A key ingredient in cement, construction and chemical industries, offering strength and versatility.",
       title: "Versatile Mineral for Multiple Industries",
       img: "images/products_agricultural-limestone.webp",
-      hero: "images/home_limestone-1.png",
+      hero: "images/home_limestone-1.webp",
       intro: [
         "High-quality limestone: a naturally occurring sedimentary rock rich in calcium carbonate (CaCO₃), known for its durability, whiteness and chemical stability.",
         "Ideal for cement, construction, steel, agriculture and chemicals, in customized grades."
@@ -229,8 +229,8 @@ window.SEN = {
       id: "cordierite", name: "Cordierite", hue: "#b9b2a6",
       short: "A heat-resistant mineral for ceramics and kiln furniture, known for low thermal expansion and durability.",
       title: "High-Performance Mineral for Thermal & Ceramic Applications",
-      img: "images/cordierite_cordierite.png",
-      hero: "images/cordierite_cordierite-why.png",
+      img: "images/cordierite_cordierite.webp",
+      hero: "images/cordierite_cordierite-why.webp",
       intro: [
         "Cordierite is a high-temperature ceramic mineral valued for excellent thermal shock resistance, low thermal expansion and high refractoriness.",
         "We mine and process cordierite for refractories, ceramics, foundries and automotive, in customized grades."

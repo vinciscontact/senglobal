@@ -7,12 +7,12 @@
   <meta name="description" content="SEN Group of Companies is South India’s leading minerals manufacturer, established in 1973: feldspar, quartz, chamotte, bentonite, talc, limestone and more for refractory, ceramics, glass, cement and tiles.">
   <meta name="theme-color" content="#171512">
   <link rel="icon" href="images/site_favicon1.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/Archivo-400-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
   <link rel="preload" as="image" href="images/site_senlogo.png">
   <link rel="preload" as="image" href="images/graded/hero-wide.webp" media="(min-width: 821px)">
-  <link rel="stylesheet" href="assets/css/style.css?v=22">
-  <link rel="stylesheet" href="assets/css/home.css?v=23">
+  <link rel="stylesheet" href="assets/css/style.css?v=26">
+  <link rel="stylesheet" href="assets/css/home.css?v=26">
   <script>
     // Every load starts at the top with the loader
     if ("scrollRestoration" in history) history.scrollRestoration = "manual";
@@ -94,7 +94,7 @@
         </div>
       </div>
       <article class="chap" data-step="1">
-        <div class="chap__media"><img src="images/graded/mine-pit.webp" alt="Haul truck in an open-pit mine" loading="lazy"></div>
+        <div class="chap__media"><img src="images/graded/mine-pit.webp" srcset="images/graded/mine-pit-800.webp 800w, images/graded/mine-pit.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" decoding="async" alt="Haul truck in an open-pit mine" loading="lazy"></div>
         <div>
           <div class="chap__num">01</div>
           <h3>Selective mining</h3>
@@ -103,7 +103,7 @@
         </div>
       </article>
       <article class="chap" data-step="2">
-        <div class="chap__media"><img src="images/graded/plant-9592.webp" alt="Grinding mill at a Salem plant" loading="lazy"></div>
+        <div class="chap__media"><img src="images/graded/plant-9592.webp" srcset="images/graded/plant-9592-800.webp 800w, images/graded/plant-9592.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" decoding="async" alt="Grinding mill at a Salem plant" loading="lazy"></div>
         <div>
           <div class="chap__num">02</div>
           <h3>Crushing &amp; grinding</h3>
@@ -121,7 +121,7 @@
         </div>
       </article>
       <article class="chap" data-step="4">
-        <div class="chap__media"><img src="images/graded/plant-8566.webp" alt="Processing line with screening equipment" loading="lazy"></div>
+        <div class="chap__media"><img src="images/graded/plant-8566.webp" srcset="images/graded/plant-8566-800.webp 800w, images/graded/plant-8566.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" decoding="async" alt="Processing line with screening equipment" loading="lazy"></div>
         <div>
           <div class="chap__num">04</div>
           <h3>Tested in-house</h3>
@@ -130,7 +130,7 @@
         </div>
       </article>
       <article class="chap" data-step="5">
-        <div class="chap__media"><img src="images/graded/plant-8559.webp" alt="Jumbo bags ready for dispatch" loading="lazy"></div>
+        <div class="chap__media"><img src="images/graded/plant-8559.webp" srcset="images/graded/plant-8559-800.webp 800w, images/graded/plant-8559.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" decoding="async" alt="Jumbo bags ready for dispatch" loading="lazy"></div>
         <div>
           <div class="chap__num">05</div>
           <h3>Packed &amp; delivered</h3>
@@ -170,7 +170,7 @@
   <section class="section dark h-map">
     <div class="wrap map">
       <div class="map__fig">
-        <img src="images/site_india-map-3-1.png" alt="Map of India" loading="lazy">
+        <img src="images/site_india-map-3-1.webp" alt="Map of India" loading="lazy">
         <div class="pin pin--r" style="left:44.1%;top:75.5%"><i></i><span>Chennai · Gummidipoondi</span></div>
         <div class="pin pin--l" style="left:38.2%;top:80.6%"><i></i><span>Salem · Mettur</span></div>
       </div>
@@ -196,7 +196,7 @@
 
   <!-- 08 FINAL CTA -->
   <section class="fin">
-    <div class="fin__bg"><img src="images/graded/plant-8570.webp" alt="" loading="lazy"></div>
+    <div class="fin__bg"><img src="images/graded/plant-8570.webp" srcset="images/graded/plant-8570-800.webp 800w, images/graded/plant-8570.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" decoding="async" alt="" loading="lazy"></div>
     <div class="wrap">
       <span class="tag">Start an order</span>
       <h2 class="fin__big" aria-label="Let’s talk minerals.">
@@ -217,8 +217,8 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
-<script src="assets/js/data.js?v=22"></script>
-<script src="assets/js/main.js?v=24"></script>
-<script src="assets/js/home.js?v=24"></script>
+<script src="assets/js/data.js?v=26"></script>
+<script src="assets/js/main.js?v=26"></script>
+<script src="assets/js/home.js?v=28"></script>
 </body>
 </html>
