@@ -58,6 +58,7 @@
     $$("[data-fade]").forEach((el) => {
       const kids = el.children.length ? el.children : [el];
       const inHero = el.closest(".x-hero");
+      if (!desktop && !inHero) return; // phones: no fade-ins while scrolling
       gsap.from(kids, {
         autoAlpha: 0, y: 34, stagger: 0.08, delay: inHero ? 0.5 : 0,
         scrollTrigger: inHero ? undefined : { trigger: el, start: "top 86%" }
@@ -65,7 +66,7 @@
     });
 
     /* Clip-open frames */
-    $$("[data-clip]").forEach((el) => {
+    if (desktop) $$("[data-clip]").forEach((el) => {
       const img = $("img", el);
       gsap.fromTo(el, { clipPath: "inset(16% 10% 16% 10%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.4, ease: "expo.inOut", scrollTrigger: { trigger: el, start: "top 80%" } });
       if (img) gsap.fromTo(img, { scale: 1.3 }, { scale: 1, duration: 1.8, ease: "expo.out", scrollTrigger: { trigger: el, start: "top 80%" } });
@@ -101,16 +102,18 @@
       $$(".tl__item").forEach((it) => {
         ScrollTrigger.create({ trigger: it, start: "top 62%", end: "bottom 62%", toggleClass: { targets: it, className: "is-on" },
           onEnter: () => ($("#tl-year").textContent = it.dataset.year), onEnterBack: () => ($("#tl-year").textContent = it.dataset.year) });
-        gsap.from($$(".tl__card > *", it), { autoAlpha: 0, y: 30, stagger: 0.07, scrollTrigger: { trigger: it, start: "top 80%" } });
+        if (desktop) gsap.from($$(".tl__card > *", it), { autoAlpha: 0, y: 30, stagger: 0.07, scrollTrigger: { trigger: it, start: "top 80%" } });
       });
 
       // Values: each row slides in from alternating sides
-      $$(".vals li").forEach((li, i) => gsap.from(li, { xPercent: i % 2 ? 6 : -6, autoAlpha: 0, duration: 1.1, scrollTrigger: { trigger: li, start: "top 90%" } }));
+      if (desktop) $$(".vals li").forEach((li, i) => gsap.from(li, { xPercent: i % 2 ? 6 : -6, autoAlpha: 0, duration: 1.1, scrollTrigger: { trigger: li, start: "top 90%" } }));
 
       // Strength cards
+      if (desktop) {
       ScrollTrigger.batch(".str", { start: "top 88%", once: true, onEnter: (els) => gsap.fromTo(els, { autoAlpha: 0, y: 50 }, { autoAlpha: 1, y: 0, stagger: 0.07, overwrite: true }) });
       gsap.set(".str", { autoAlpha: 0 });
       gsap.from(".client", { autoAlpha: 0, y: 50, stagger: 0.08, duration: 1, scrollTrigger: { trigger: "#logos", start: "top 85%" } });
+      }
     }
 
     if (page === "projects") {
@@ -134,12 +137,14 @@
         });
       }
       // Mosaic tiles
+      if (desktop) {
       ScrollTrigger.batch(".mosaic figure", { start: "top 90%", once: true, onEnter: (els) => gsap.fromTo(els, { autoAlpha: 0, y: 60, scale: 0.96 }, { autoAlpha: 1, y: 0, scale: 1, stagger: 0.08, duration: 1, overwrite: true }) });
       gsap.set(".mosaic figure", { autoAlpha: 0 });
       gsap.from(".kit li", { autoAlpha: 0, y: 40, stagger: 0.08, scrollTrigger: { trigger: ".kit", start: "top 80%" } });
+      }
     }
 
-    if (document.querySelector(".cta")) gsap.from(".cta__text > *", { autoAlpha: 0, y: 34, stagger: 0.09, scrollTrigger: { trigger: ".cta", start: "top 70%" } });
+    if (desktop && document.querySelector(".cta")) gsap.from(".cta__text > *", { autoAlpha: 0, y: 34, stagger: 0.09, scrollTrigger: { trigger: ".cta", start: "top 70%" } });
 
     document.fonts?.ready.then(() => ScrollTrigger.refresh());
     addEventListener("load", () => ScrollTrigger.refresh(), { once: true });

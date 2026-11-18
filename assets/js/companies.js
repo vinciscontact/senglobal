@@ -93,23 +93,26 @@
     gsap.to(".g-hero__bg img", { yPercent: 12, ease: "none", scrollTrigger: { trigger: ".g-hero", start: "top top", end: "bottom top", scrub: true } });
 
     // Index rows
+    if (desktop) {
     gsap.from(".g-index__head > *", { autoAlpha: 0, y: 36, stagger: 0.1, scrollTrigger: { trigger: ".g-index", start: "top 80%" } });
     gsap.from(".g-rows li", { autoAlpha: 0, y: 36, stagger: 0.07, scrollTrigger: { trigger: "#g-rows", start: "top 85%" } });
+    }
 
     // Chapters
     $$(".g-co").forEach((co) => {
+      const bar = $(".g-co__cap i", co);
+      if (!desktop) return; // phones: chapters are simply there, bars shown at full length
       gsap.fromTo($(".g-co__frame", co), { clipPath: "inset(18% 10% 18% 10%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.4, ease: "expo.inOut", scrollTrigger: { trigger: co, start: "top 75%" } });
       gsap.fromTo($(".g-co__frame img", co), { scale: 1.3 }, { scale: 1, duration: 1.8, ease: "expo.out", scrollTrigger: { trigger: co, start: "top 75%" } });
       if (desktop) gsap.fromTo($(".g-co__frame img", co), { yPercent: -6 }, { yPercent: 6, ease: "none", scrollTrigger: { trigger: co, start: "top bottom", end: "bottom top", scrub: true } });
       gsap.from($(".g-co__year", co), { xPercent: -8, autoAlpha: 0, duration: 1.4, scrollTrigger: { trigger: co, start: "top 75%" } });
       gsap.from($$(".g-co__idx, h2, .g-co__place, .lead, .g-co__facts, .g-co__cap, h4, .pills", co), { autoAlpha: 0, y: 32, stagger: 0.06, scrollTrigger: { trigger: co, start: "top 70%" } });
-      const bar = $(".g-co__cap i", co);
       gsap.fromTo(bar, { scaleX: 0 }, { scaleX: +bar.dataset.w, duration: 1.4, ease: "expo.out", scrollTrigger: { trigger: bar, start: "top 90%" } });
     });
 
     // Industries + CTA
-    gsap.from(".g-ind h2, .g-ind li", { autoAlpha: 0, y: 30, stagger: 0.07, scrollTrigger: { trigger: ".g-ind", start: "top 80%" } });
-    gsap.from(".cta__text > *", { autoAlpha: 0, y: 34, stagger: 0.09, scrollTrigger: { trigger: ".cta", start: "top 70%" } });
+    if (desktop) gsap.from(".g-ind h2, .g-ind li", { autoAlpha: 0, y: 30, stagger: 0.07, scrollTrigger: { trigger: ".g-ind", start: "top 80%" } });
+    if (desktop) gsap.from(".cta__text > *", { autoAlpha: 0, y: 34, stagger: 0.09, scrollTrigger: { trigger: ".cta", start: "top 70%" } });
 
     if (fine) {
       $$(".magnet").forEach((b) => {

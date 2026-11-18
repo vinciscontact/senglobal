@@ -67,7 +67,7 @@
     gsap.set(".h-hero__media", { clipPath: "inset(14% 12% 14% 12%)" });
     gsap.set(".h-hero__media img", { scale: 1.35 });
 
-    const intro = gsap.timeline({ paused: true, onComplete: () => ScrollTrigger.refresh() })
+    const intro = gsap.timeline({ paused: true, onComplete: () => { buildHeroScroll(); ScrollTrigger.refresh(); } })
       .to(".h-hero__media", { clipPath: "inset(0% 0% 0% 0%)", duration: 1.5, ease: "expo.inOut" })
       .to(".h-hero__media img", { scale: 1, duration: 1.9, ease: "expo.out" }, "<")
       .to(".h-title .ln > span", { yPercent: 0, duration: 1.15, stagger: 0.11, ease: "power4.out" }, "-=0.95")
@@ -88,18 +88,21 @@
     }
 
     /* ---------- Hero scroll: the headline is "crushed" ---------- */
-    const heroTl = gsap.timeline({ scrollTrigger: { trigger: ".h-hero", start: "top top", end: "bottom top", scrub: true } });
-    heroTl.to(".h-hero__media img", { scale: 1.14, yPercent: 8, ease: "none" }, 0)
-      .to(".h-title", { yPercent: -18, ease: "none" }, 0)
-      .to(".h-hero__row, .h-hero__meta", { autoAlpha: 0, y: -40, ease: "none" }, 0);
-    if (desktop) heroTl.fromTo(".h-title", { "--wdth": 100 }, { "--wdth": 64, ease: "none" }, 0);
+    // Built after the intro so the two never fight over the same properties (that caused a jump/flash)
+    const buildHeroScroll = () => {
+      const heroTl = gsap.timeline({ scrollTrigger: { trigger: ".h-hero", start: "top top", end: "bottom top", scrub: true } });
+      heroTl.fromTo(".h-hero__media img", { scale: 1, yPercent: 0 }, { scale: 1.14, yPercent: 8, ease: "none", immediateRender: false }, 0)
+        .fromTo(".h-title", { yPercent: 0 }, { yPercent: -18, ease: "none", immediateRender: false }, 0)
+        .fromTo(".h-hero__row, .h-hero__meta", { autoAlpha: 1, y: 0 }, { autoAlpha: 0, y: -40, ease: "none", immediateRender: false }, 0);
+      if (desktop) heroTl.fromTo(".h-title", { "--wdth": 100 }, { "--wdth": 64, ease: "none", immediateRender: false }, 0);
+    };
 
     /* ---------- Manifesto: words light up as you read ---------- */
     gsap.to(".manifesto__text .w", {
       opacity: 1, stagger: 0.08, ease: "none",
       scrollTrigger: { trigger: "#manifesto", start: "top 78%", end: "bottom 45%", scrub: 0.6 }
     });
-    gsap.from(".manifesto__foot li, .manifesto__foot .link-arrow", { autoAlpha: 0, y: 30, stagger: 0.08, scrollTrigger: { trigger: ".manifesto__foot", start: "top 90%" } });
+    if (desktop) gsap.from(".manifesto__foot li, .manifesto__foot .link-arrow", { autoAlpha: 0, y: 30, stagger: 0.08, scrollTrigger: { trigger: ".manifesto__foot", start: "top 90%" } });
 
     /* ---------- Process: pinned horizontal chapters (desktop) ---------- */
     const track = $(".proc__track");
@@ -125,17 +128,17 @@
         gsap.from([$(".chap__num", ch), $("h3", ch), $("p", ch), $(".chap__spec", ch)], { autoAlpha: 0, y: 50, stagger: 0.08, scrollTrigger: { trigger: ch, containerAnimation: horiz, start: "left 70%" } });
       });
       gsap.from(".chap--intro h2, .chap--intro p", { autoAlpha: 0, y: 60, stagger: 0.12, scrollTrigger: { trigger: ".proc", start: "top 70%" } });
-    } else {
-      $$(".chap").forEach((ch) => gsap.from(ch.children, { autoAlpha: 0, y: 40, stagger: 0.1, scrollTrigger: { trigger: ch, start: "top 82%" } }));
     }
 
     /* ---------- Product index ---------- */
+    if (desktop) {
     gsap.from(".idx__head > *", { autoAlpha: 0, y: 40, stagger: 0.1, scrollTrigger: { trigger: ".idx", start: "top 80%" } });
     ScrollTrigger.batch(".idx__list li", {
       start: "top 92%", once: true,
       onEnter: (els) => gsap.fromTo(els, { autoAlpha: 0, y: 40 }, { autoAlpha: 1, y: 0, stagger: 0.05, duration: 0.8, overwrite: true })
     });
     gsap.set(".idx__list li", { autoAlpha: 0 });
+    }
 
     if (fine && desktop) {
       const pv = $(".preview"), pvImg = $("img", pv), pvCap = $("figcaption", pv);
@@ -171,22 +174,27 @@
         gsap.to(loop, { timeScale: dir * boost, duration: 0.3, overwrite: true, onComplete: () => gsap.to(loop, { timeScale: dir, duration: 1.2, ease: "power2.out" }) });
       }
     });
-    gsap.from(".band .stat", { autoAlpha: 0, y: 40, stagger: 0.08, scrollTrigger: { trigger: ".band .stats", start: "top 85%" } });
+    if (desktop) gsap.from(".band .stat", { autoAlpha: 0, y: 40, stagger: 0.08, scrollTrigger: { trigger: ".band .stats", start: "top 85%" } });
 
     /* ---------- Footprint ---------- */
+    if (!desktop) gsap.set(".h-map .pin i", { scale: 1 });
+    else {
     gsap.from(".h-map .map__fig img", { autoAlpha: 0, scale: 0.94, duration: 1.4, scrollTrigger: { trigger: ".h-map", start: "top 70%" } });
     gsap.to(".h-map .pin i", { scale: 1, duration: 0.7, stagger: 0.25, ease: "back.out(3)", scrollTrigger: { trigger: ".h-map", start: "top 55%" } });
     gsap.from(".h-map .pin span", { autoAlpha: 0, x: (i) => (i ? 16 : -16), stagger: 0.25, delay: 0.3, scrollTrigger: { trigger: ".h-map", start: "top 55%" } });
     gsap.from(".h-map .tag, .h-map h2, .h-map .loc-list li", { autoAlpha: 0, y: 36, stagger: 0.07, scrollTrigger: { trigger: ".h-map .loc-list", start: "top 85%" } });
+    }
 
     /* ---------- Clients ---------- */
-    gsap.from(".cl .shead > *", { autoAlpha: 0, y: 36, stagger: 0.1, scrollTrigger: { trigger: ".cl", start: "top 80%" } });
-    gsap.from(".client", { autoAlpha: 0, y: 50, stagger: 0.08, duration: 1, scrollTrigger: { trigger: "#logos", start: "top 85%" } });
+    if (desktop) gsap.from(".cl .shead > *", { autoAlpha: 0, y: 36, stagger: 0.1, scrollTrigger: { trigger: ".cl", start: "top 80%" } });
+    if (desktop) gsap.from(".client", { autoAlpha: 0, y: 50, stagger: 0.08, duration: 1, scrollTrigger: { trigger: "#logos", start: "top 85%" } });
 
     /* ---------- Final CTA ---------- */
+    if (desktop) {
     gsap.fromTo(".fin__bg img", { yPercent: -10 }, { yPercent: 6, ease: "none", scrollTrigger: { trigger: ".fin", start: "top bottom", end: "bottom top", scrub: true } });
     gsap.from(".fin__big .ln > span", { yPercent: 115, stagger: 0.12, duration: 1.2, ease: "power4.out", scrollTrigger: { trigger: ".fin", start: "top 65%" } });
     gsap.from(".fin .tag, .fin__row > *", { autoAlpha: 0, y: 30, stagger: 0.1, delay: 0.3, scrollTrigger: { trigger: ".fin", start: "top 65%" } });
+    }
 
     /* ---------- Magnetic buttons ---------- */
     if (fine) {
