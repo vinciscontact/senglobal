@@ -22,6 +22,7 @@
 
   if (!window.gsap || !window.ScrollTrigger) { $$("[data-lit] .w").forEach((w) => (w.style.opacity = 1)); return; }
   gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.config({ ignoreMobileResize: true });
   gsap.defaults({ ease: "power3.out", duration: 0.9 });
 
   gsap.matchMedia().add({ any: "all", reduce: "(prefers-reduced-motion: reduce)", desktop: "(min-width: 901px)", fine: "(hover: hover) and (pointer: fine)" }, (ctx) => {

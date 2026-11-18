@@ -97,7 +97,9 @@
   const onScroll = () => {
     const y = scrollY;
     if (overHero) nav.classList.toggle("is-solid", y > innerHeight * 0.6 || mega.classList.contains("is-open"));
-    if (!document.body.classList.contains("menu-open") && !mega.classList.contains("is-open")) nav.classList.toggle("is-hidden", y > lastY && y > 300);
+    const dy = y - lastY;
+    if (Math.abs(dy) < 12 && y > 0) return; // ignore tiny jitters so the bar doesn't flash
+    if (!document.body.classList.contains("menu-open") && !mega.classList.contains("is-open")) nav.classList.toggle("is-hidden", dy > 0 && y > 300);
     lastY = y;
   };
   addEventListener("scroll", onScroll, { passive: true }); onScroll();

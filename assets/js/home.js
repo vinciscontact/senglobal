@@ -29,6 +29,7 @@
     done(); $$(".manifesto__text .w").forEach((w) => (w.style.opacity = 1)); $$(".h-map .pin i").forEach((i) => (i.style.transform = "none")); return;
   }
   gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.config({ ignoreMobileResize: true }); // phone address bar showing/hiding shouldn't re-layout animations
   gsap.defaults({ ease: "power3.out", duration: 0.9 });
 
   const mm = gsap.matchMedia();
@@ -157,7 +158,19 @@
     }
 
     /* ---------- Band: scrubbed outline line + stats ---------- */
-    gsap.fromTo(".band__line", { xPercent: 0 }, { xPercent: -28, ease: "none", scrollTrigger: { trigger: ".band", start: "top bottom", end: "bottom top", scrub: true } });
+    // Seamless loop: drifts steadily, speeds up with scroll and turns with scroll direction
+    const loop = gsap.to(".band__track", { xPercent: -50, ease: "none", duration: 26, repeat: -1 });
+    let dir = 1;
+    ScrollTrigger.create({
+      trigger: ".band", start: "top bottom", end: "bottom top",
+      onToggle: (st) => (st.isActive ? loop.play() : loop.pause()),
+      onUpdate: (st) => {
+        const v = st.getVelocity(); if (Math.abs(v) < 5) return;
+        dir = v > 0 ? 1 : -1;
+        const boost = gsap.utils.clamp(1, 4, 1 + Math.abs(v) / 700);
+        gsap.to(loop, { timeScale: dir * boost, duration: 0.3, overwrite: true, onComplete: () => gsap.to(loop, { timeScale: dir, duration: 1.2, ease: "power2.out" }) });
+      }
+    });
     gsap.from(".band .stat", { autoAlpha: 0, y: 40, stagger: 0.08, scrollTrigger: { trigger: ".band .stats", start: "top 85%" } });
 
     /* ---------- Footprint ---------- */
