@@ -1,7 +1,7 @@
-/* SEN Global Group — site content (sourced from data/site-content.md) */
+/* SEN Global Group: site content (sourced from data/site-content.md) */
 window.SEN = {
   contact: {
-    address: "No 450/1 Arcot Road, Porur, Chennai, Tamil Nadu, India – 600116",
+    address: "No 450/1 Arcot Road, Porur, Chennai, Tamil Nadu, India 600116",
     phone: "+91 98416 76853",
     phoneHref: "tel:+919841676853",
     email: "contactus.sengroup@yahoo.com"
@@ -48,7 +48,7 @@ window.SEN = {
       machinery: ["1 Ball Mill", "2 Three-Roller Mills"],
       img: "images/graded/plant-8566.webp",
       text: [
-        "A reputed division of the SEN Group, founded in 1981 and headquartered at No. 94-C/3, 3rd Cross Street, Industrial Estate, Ambattur, Chennai – 600 058, with operations extending to Salem.",
+        "A reputed division of the SEN Group, founded in 1981 and headquartered at No. 94-C/3, 3rd Cross Street, Industrial Estate, Ambattur, Chennai 600 058, with operations extending to Salem.",
         "Advanced manufacturing processes and strict quality checks ensure every product meets industry standards and customer expectations."
       ],
       products: ["Feldspar", "Bentonite", "Talc"]
@@ -86,7 +86,7 @@ window.SEN = {
       machinery: ["1 Ball Mill"],
       img: "images/graded/plant-9591.webp",
       text: [
-        "A key subsidiary since 1992, strategically located in Salem and focused on precision grinding and mineral processing tailored to industrial standards — supporting clients with consistent output and timely service."
+        "A key subsidiary since 1992, strategically located in Salem and focused on precision grinding and mineral processing tailored to industrial standards, supporting clients with consistent output and timely service."
       ]
     }
   ],
@@ -100,13 +100,13 @@ window.SEN = {
       hero: "images/feldspar-2_feldspar.webp",
       intro: [
         "Feldspar is one of the most abundant minerals on Earth. It improves durability, strength and thermal resistance, making it an essential raw material in various industries.",
-        "We supply premium-grade feldspar with high purity and consistent quality, carefully processed for manufacturers of tiles, glass, coatings and industrial applications — in customized grades for your industry."
+        "We supply premium-grade feldspar with high purity and consistent quality, carefully processed for manufacturers of tiles, glass, coatings and industrial applications, in customized grades for your industry."
       ],
       specs: [
         ["Chemical Composition", "Al₂O₃, SiO₂, K₂O/Na₂O"], ["Purity", "High-grade, minimal impurities"],
         ["Color", "White, Pink, Light Grey"], ["Physical Form", "Lumps, Granules, Powder"],
-        ["Moisture Content", "≤ 1%"], ["Density", "2.55 – 2.76 g/cm³"],
-        ["Hardness", "6 – 6.5 (Mohs)"], ["Melting Point", "1150°C – 1250°C"]
+        ["Moisture Content", "≤ 1%"], ["Density", "2.55–2.76 g/cm³"],
+        ["Hardness", "6–6.5 (Mohs)"], ["Melting Point", "1150°C–1250°C"]
       ],
       types: [
         { name: "Potassium Feldspar", img: "images/home_potassium-feldspar.webp" },
@@ -130,7 +130,7 @@ window.SEN = {
       img: "images/products_quartz-grits.webp",
       hero: "images/quartz_quartz.jpg",
       intro: [
-        "We supply high-quality quartz that meets industry standards for strength, durability and purity — carefully processed for glass, electronics, ceramics and more.",
+        "We supply high-quality quartz that meets industry standards for strength, durability and purity, carefully processed for glass, electronics, ceramics and more.",
         "Available in different and customized grades to suit your application."
       ],
       specs: [["Purity", "Up to 99.5% SiO₂"], ["Color", "White, milky, translucent or clear"], ["Form", "Lumps, grits and powder"], ["Size", "Custom sizes as per requirement"], ["Hardness", "7 (Mohs)"]],
@@ -174,10 +174,10 @@ window.SEN = {
       img: "images/home_sodium-bentonite.webp",
       hero: "images/bentonite_bentonitesecondimage.webp",
       intro: [
-        "Premium-grade bentonite — a natural clay with excellent absorption, swelling and binding properties, processed to international quality standards.",
+        "Premium-grade bentonite: a natural clay with excellent absorption, swelling and binding properties, processed to international quality standards.",
         "Widely used in foundries, drilling, construction, agriculture and more; available in customized grades."
       ],
-      specs: [["Type", "Sodium / Calcium Bentonite"], ["Swelling Capacity", "High (Sodium type)"], ["Moisture Content", "Below 12%"], ["pH Level", "8.5 – 10"], ["Form", "Powder / Granules"], ["Color", "Cream to light brown"]],
+      specs: [["Type", "Sodium / Calcium Bentonite"], ["Swelling Capacity", "High (Sodium type)"], ["Moisture Content", "Below 12%"], ["pH Level", "8.5–10"], ["Form", "Powder / Granules"], ["Color", "Cream to light brown"]],
       types: [{ name: "Sodium Bentonite", img: "images/bentonite_sodium-bentonite.webp" }],
       apps: [
         ["Construction", "Waterproofing, piling and tunneling"], ["Oil & Gas", "Drilling mud for lubricating drill bits"],
@@ -194,10 +194,10 @@ window.SEN = {
       img: "images/home_talc.webp",
       hero: "images/talc_talc-1.webp",
       intro: [
-        "Premium-grade talc — a soft, natural mineral known for its smooth texture, moisture resistance and chemical stability.",
+        "Premium-grade talc: a soft, natural mineral known for its smooth texture, moisture resistance and chemical stability.",
         "Processed for plastics, paints, ceramics, paper, cosmetics and pharmaceuticals, in customized grades."
       ],
-      specs: [["Form", "Powder"], ["Color", "White to off-white"], ["Purity", "Up to 98%"], ["Particle Size", "200 mesh available"], ["Moisture Content", "Below 0.8%"], ["pH Value", "8 – 10"], ["Oil Absorption", "30 – 60%"]],
+      specs: [["Form", "Powder"], ["Color", "White to off-white"], ["Purity", "Up to 98%"], ["Particle Size", "200 mesh available"], ["Moisture Content", "Below 0.8%"], ["pH Value", "8–10"], ["Oil Absorption", "30–60%"]],
       apps: [
         ["Cosmetics & Personal Care", "Face powders, body powders, deodorants"], ["Plastics & Rubber", "Filler for strength and flexibility"],
         ["Paints & Coatings", "Improves smoothness and coverage"], ["Ceramics", "Glaze, tiles and sanitaryware"],
@@ -213,7 +213,7 @@ window.SEN = {
       img: "images/products_agricultural-limestone.webp",
       hero: "images/home_limestone-1.png",
       intro: [
-        "High-quality limestone — a naturally occurring sedimentary rock rich in calcium carbonate (CaCO₃), known for its durability, whiteness and chemical stability.",
+        "High-quality limestone: a naturally occurring sedimentary rock rich in calcium carbonate (CaCO₃), known for its durability, whiteness and chemical stability.",
         "Ideal for cement, construction, steel, agriculture and chemicals, in customized grades."
       ],
       specs: [["Purity", "Up to 98% CaCO₃"], ["Form", "Lumps / Powder"], ["Color", "White to light grey"], ["Moisture Content", "< 1%"], ["Mesh Size", "100 to 500 mesh"], ["Hardness", "3 (Mohs)"]],
@@ -233,9 +233,9 @@ window.SEN = {
       hero: "images/cordierite_cordierite-why.png",
       intro: [
         "Cordierite is a high-temperature ceramic mineral valued for excellent thermal shock resistance, low thermal expansion and high refractoriness.",
-        "We mine and process cordierite for refractories, ceramics, foundries and automotive — in customized grades."
+        "We mine and process cordierite for refractories, ceramics, foundries and automotive, in customized grades."
       ],
-      specs: [["Chemical Formula", "Mg₂Al₄Si₅O₁₈"], ["Color", "Greyish-blue to white"], ["Form", "Lumps, granules or powder"], ["Refractoriness", "Up to 1400 – 1450°C"], ["Thermal Expansion", "Very low"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
+      specs: [["Chemical Formula", "Mg₂Al₄Si₅O₁₈"], ["Color", "Greyish-blue to white"], ["Form", "Lumps, granules or powder"], ["Refractoriness", "Up to 1400–1450°C"], ["Thermal Expansion", "Very low"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
       apps: [
         ["Refractory Linings", "Kilns, furnaces and insulation bricks"], ["Ceramic Honeycomb Substrates", "Automotive catalytic converters"],
         ["Electrical Insulators", "High-voltage components"], ["Foundry", "Mold and core components"],
@@ -251,7 +251,7 @@ window.SEN = {
       img: "images/home_sanitary-ware-chips-3.webp",
       hero: "images/sanitary-ware-chips_sanitary-ware-chips.webp",
       intro: [
-        "A vital raw material for ceramic sanitary products like wash basins, toilets and bathroom fittings — known for high refractoriness, strength and whiteness.",
+        "A vital raw material for ceramic sanitary products like wash basins, toilets and bathroom fittings, known for high refractoriness, strength and whiteness.",
         "Processed from selected minerals under strict quality control, in customized grades."
       ],
       specs: [["Composition", "Feldspar, quartz, kaolin & ceramic-grade minerals"], ["Color", "White to off-white"], ["Size", "0–3 mm, 3–8 mm, custom"], ["Form", "Chips / granules"]],
@@ -274,7 +274,7 @@ window.SEN = {
       img: "images/home_porcelain-insulator-3.webp",
       hero: "images/porcelain-insulator_porcelain-insulator.webp",
       intro: [
-        "High-grade porcelain insulators known for mechanical strength, electrical insulation and weather resistance — essential for power transmission, distribution and substations.",
+        "High-grade porcelain insulators known for mechanical strength, electrical insulation and weather resistance, essential for power transmission, distribution and substations.",
         "Designed to perform reliably even in harsh outdoor conditions; customized grades available."
       ],
       specs: [["Material", "High-quality vitrified porcelain"], ["Dielectric Strength", "≥ 60 kV/mm"], ["Mechanical Strength", "High tensile & compressive"], ["Color", "Brown, white or grey glaze"], ["Type", "Pin, disc, post & strain"], ["Temperature Resistance", "Up to 1000°C"], ["Packaging", "Export-safe crates or cartons"]],
@@ -297,10 +297,10 @@ window.SEN = {
       img: "images/home_kyanite.webp",
       hero: "images/kyanite_kyanite-2.webp",
       intro: [
-        "Premium-grade kyanite — known for thermal stability, high alumina content and strength at high temperatures.",
+        "Premium-grade kyanite, known for thermal stability, high alumina content and strength at high temperatures.",
         "Ideal for refractories, ceramics, foundries and other high-heat applications; customized grades available."
       ],
-      specs: [["Al₂O₃ Content", "Up to 58%"], ["Color", "Blue, light blue or bluish-grey"], ["Form", "Lumps, grits and powder"], ["Size", "Customized particle sizes"], ["Bulk Density", "2.9 – 3.6 g/cm³"], ["Refractoriness", "Up to 1750°C"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
+      specs: [["Al₂O₃ Content", "Up to 58%"], ["Color", "Blue, light blue or bluish-grey"], ["Form", "Lumps, grits and powder"], ["Size", "Customized particle sizes"], ["Bulk Density", "2.9–3.6 g/cm³"], ["Refractoriness", "Up to 1750°C"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
       types: [{ name: "Kyanite Grits", img: "images/products_kyanite-1.webp" }, { name: "Kyanite Fines", img: "images/kyanite_kyanite-2.webp" }],
       apps: [
         ["Refractory Industry", "Bricks, kiln linings and furnace components"], ["Ceramics", "Strength and thermal shock resistance"],
@@ -320,7 +320,7 @@ window.SEN = {
         "Silicon Carbide (SiC) is a synthetic material known for extreme hardness, high thermal conductivity and exceptional resistance to wear, corrosion and heat.",
         "Premium-grade SiC tailored for abrasives, refractories, metallurgy and electronics."
       ],
-      specs: [["Purity", "Up to 98.5% SiC"], ["Color", "Black or Green"], ["Form", "Grains, powder and blocks"], ["Hardness", "9.2 – 9.5 (Mohs)"], ["Melting Point", "Over 2700°C"], ["Thermal Conductivity", "High"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
+      specs: [["Purity", "Up to 98.5% SiC"], ["Color", "Black or Green"], ["Form", "Grains, powder and blocks"], ["Hardness", "9.2–9.5 (Mohs)"], ["Melting Point", "Over 2700°C"], ["Thermal Conductivity", "High"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
       types: [{ name: "SiC Grains", img: "images/products_silicon-carbide-1.webp" }],
       apps: [
         ["Abrasives", "Grinding wheels, cutting discs, sandpapers"], ["Refractories", "Kiln furniture, furnace linings and bricks"],
@@ -357,10 +357,10 @@ window.SEN = {
       img: "images/home_solid-calcined-alumina-grog.webp",
       hero: "images/products_calcined-alumina-grog.webp",
       intro: [
-        "Alumina grog — also known as calcined bauxite — is a crushed and graded refractory aggregate made by heating bauxite ore at high temperatures.",
+        "Alumina grog, also known as calcined bauxite, is a crushed and graded refractory aggregate made by heating bauxite ore at high temperatures.",
         "Ideal for high-temperature and wear-resistant applications in refractories, castables, ceramics and foundries."
       ],
-      specs: [["Grades", "40% and 70% Alumina Grog"], ["Color", "Off-white to light brown"], ["Form", "Lumps, grains and powder"], ["Size", "Custom mesh sizes"], ["Bulk Density", "2.7 – 3.1 g/cm³"], ["Refractoriness", "> 1750°C"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
+      specs: [["Grades", "40% and 70% Alumina Grog"], ["Color", "Off-white to light brown"], ["Form", "Lumps, grains and powder"], ["Size", "Custom mesh sizes"], ["Bulk Density", "2.7–3.1 g/cm³"], ["Refractoriness", "> 1750°C"], ["Packaging", "50 kg, 1-ton jumbo, custom"]],
       types: [
         { name: "Solid Calcined Alumina Grog", desc: "Dense, solid alumina grog for refractories", img: "images/home_solid-calcined-alumina-grog.webp" },
         { name: "High Alumina Grog", desc: "Durable, high-temperature refractory alumina", img: "images/alumina-grog_high-alumina-grog.webp" },
@@ -380,10 +380,10 @@ window.SEN = {
       img: "images/bentonite_faqbentonite.webp",
       hero: "images/bentonite_faqbentonite.webp",
       intro: [
-        "Premium-quality ball clay sourced from carefully selected deposits — a highly plastic, fine-grained sedimentary clay used in ceramics, sanitary ware, tableware, tiles, refractories and electrical porcelain.",
+        "Premium-quality ball clay sourced from carefully selected deposits: a highly plastic, fine-grained sedimentary clay used in ceramics, sanitary ware, tableware, tiles, refractories and electrical porcelain.",
         "Excellent plasticity, high green strength, superior binding and a light firing color. Multiple grades and particle sizes, or customized specifications."
       ],
-      table: { head: ["Parameter", "Test Method", "Typical Value"], rows: [["Al₂O₃", "XRF", "25 – 35%"], ["SiO₂", "XRF", "45 – 60%"], ["Fe₂O₃", "XRF", "Below 1.5%"], ["Moisture", "Standard Test", "Below 12%"], ["Color", "Visual", "Cream to Light Grey"], ["Form", "–", "Lumps / Powder"]] },
+      table: { head: ["Parameter", "Test Method", "Typical Value"], rows: [["Al₂O₃", "XRF", "25–35%"], ["SiO₂", "XRF", "45–60%"], ["Fe₂O₃", "XRF", "Below 1.5%"], ["Moisture", "Standard Test", "Below 12%"], ["Color", "Visual", "Cream to Light Grey"], ["Form", "–", "Lumps / Powder"]] },
       apps: [
         ["Ceramic Industry", "Wall, floor and vitrified tiles"], ["Sanitary Ware", "Wash basins, toilets and sinks"],
         ["Tableware & Porcelain", "Crockery and fine ceramics"], ["Refractory Industry", "Fire bricks, castables and kiln linings"],

@@ -1,4 +1,4 @@
-/* SEN Global Group — landing page motion ("From rock to refined") */
+/* SEN Global Group: landing page motion ("From rock to refined") */
 (() => {
   const D = window.SEN;
   const $ = (s, el = document) => el.querySelector(s);
@@ -22,7 +22,8 @@
   const KEYW = /^(furnaces|tiles|glass|cement|own)/i;
   man.innerHTML = man.textContent.trim().split(/\s+/).map((w) => `<span class="w${KEYW.test(w) ? " is-key" : ""}">${esc(w)}</span>`).join(" ");
 
-  const done = () => { document.documentElement.classList.remove("show-pre"); document.body.classList.remove("is-loading"); try { sessionStorage.setItem("sen-pre", "1"); } catch (e) {} };
+  const done = () => { document.documentElement.classList.remove("show-pre"); document.body.classList.remove("is-loading"); };
+  window.scrollTo({ top: 0, left: 0, behavior: "instant" });
 
   if (!window.gsap || !window.ScrollTrigger) { // CDN unavailable: show everything statically
     done(); $$(".manifesto__text .w").forEach((w) => (w.style.opacity = 1)); $$(".h-map .pin i").forEach((i) => (i.style.transform = "none")); return;
@@ -72,7 +73,7 @@
       .to(".h-hero__meta, .h-fade", { autoAlpha: 1, y: 0, stagger: 0.08, duration: 0.9 }, "-=0.7");
 
     if (showPre) {
-      document.body.classList.add("is-loading"); lenis?.stop();
+      document.body.classList.add("is-loading"); lenis?.scrollTo(0, { immediate: true, force: true }); lenis?.stop();
       const yr = { v: 1973 }, end = new Date().getFullYear();
       gsap.timeline({ onComplete: () => { done(); lenis?.start(); } })
         .to(yr, { v: end, duration: 1.5, ease: "power2.inOut", onUpdate: () => ($("#pre-year").textContent = Math.round(yr.v)) })

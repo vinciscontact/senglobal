@@ -1,5 +1,15 @@
-/* SEN Global Group — interactions */
+/* SEN Global Group: interactions */
 (() => {
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  const toTop = () => { if (!location.hash) window.scrollTo({ top: 0, left: 0, behavior: "instant" }); };
+  toTop(); addEventListener("load", toTop, { once: true });
+  // Links to a section (e.g. companies.html#s-e-n-minerals) land on it once content is laid out
+  addEventListener("load", () => setTimeout(() => {
+    const t = location.hash && document.querySelector(location.hash);
+    if (!t) return;
+    if (window.__lenis) window.__lenis.scrollTo(t, { immediate: true, offset: -10 });
+    else window.scrollTo({ top: t.getBoundingClientRect().top + scrollY - 10, behavior: "instant" });
+  }, 120), { once: true });
   const D = window.SEN;
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -30,7 +40,7 @@
   document.body.insertAdjacentHTML("afterbegin", `
   <header class="nav${overHero ? " nav--over" : " is-solid"}" id="nav">
     <div class="nav__bar">
-      <a class="nav__logo" href="index.html" aria-label="SEN Global Group — home"><img src="images/site_senlogo.png" alt="SEN Global Group — Minerals Mining" width="157" height="32"></a>
+      <a class="nav__logo" href="index.html" aria-label="SEN Global Group home"><img src="images/site_senlogo.png" alt="SEN Global Group, Minerals Mining" width="157" height="32"></a>
       <ul class="nav__links">
         <li><a href="about.html"${active("about")}>About</a></li>
         <li><button type="button" data-mega aria-expanded="false" aria-controls="mega"${active("products")}>Products <svg class="chev" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4.5l3 3 3-3"/></svg></button></li>
@@ -43,7 +53,7 @@
     <div class="mega" id="mega"><div class="mega__in">
       <div><h4>Products</h4><ul>${D.products.map((p) => `<li><a href="product.html?id=${p.id}"><img src="${p.img}" alt="" loading="lazy">${esc(p.name)}</a></li>`).join("")}</ul></div>
       <div class="mega__companies"><h4>Group of Companies</h4><ul>${D.companies.map((c) => `<li><a href="companies.html#${c.id}">${esc(c.name)}</a></li>`).join("")}</ul><p style="margin:18px 0 0"><a class="link-arrow" href="products.html">All products ${ARR_S}</a></p></div>
-      <a class="mega__feature" href="product.html?id=chamotte"><img src="images/graded/plant-8570.webp" alt=""><span>SEN MOTTE — chamotte fired at 1450°C in our own rotary kiln</span></a>
+      <a class="mega__feature" href="product.html?id=chamotte"><img src="images/graded/plant-8570.webp" alt=""><span>SEN MOTTE chamotte, fired at 1450°C in our own rotary kiln</span></a>
     </div></div>
   </header>
   <nav class="mmenu" aria-label="Mobile">
@@ -157,7 +167,7 @@
     const p = D.products[idx];
     const prev = D.products[(idx - 1 + D.products.length) % D.products.length];
     const next = D.products[(idx + 1) % D.products.length];
-    document.title = `${p.name} — ${p.title} | SEN Global Group`;
+    document.title = `${p.name}: ${p.title} | SEN Global Group`;
     $('meta[name="description"]')?.setAttribute("content", p.short);
     const chips = (p.specs || p.table.rows.map((r) => [r[0], r[2]])).slice(0, 4).map(([k, v]) => `<span><b>${esc(k)}</b>${esc(v)}</span>`).join("");
     const pk = (i) => ['<path d="M12 8h16l3 6v18H9V14z"/><path d="M9 14h22M16 8v6M24 8v6"/>', '<path d="M8 12h24v22H8z"/><path d="M12 12V6M28 12V6M12 6c3 2 13 2 16 0M8 20h24"/>', '<path d="M8 14l12-6 12 6v14l-12 6-12-6z"/><path d="M8 14l12 6 12-6M20 20v14"/>'][i];
@@ -199,7 +209,7 @@
     </div></section>
 
     <section class="section" style="padding-top:0"><div class="wrap">
-      <div class="shead"><div><span class="tag rv">Production process</span><h2 class="h2 rv">How we make it</h2></div><p class="lead rv">Every batch passes through the same controlled sequence — from the mine to the bag.</p></div>
+      <div class="shead"><div><span class="tag rv">Production process</span><h2 class="h2 rv">How we make it</h2></div><p class="lead rv">Every batch passes through the same controlled sequence, from the mine to the bag.</p></div>
       <ol class="process" id="process">${p.process.map((s, i) => `<li><i>Step ${pad(i + 1)}</i><span>${esc(s)}</span></li>`).join("")}</ol>
     </div></section>
 
@@ -218,7 +228,7 @@
       <div class="wrap"><div class="cta__text">
         <span class="tag tag--light">Order today</span>
         <h2 class="h1">Order ${esc(p.name.toLowerCase())} from SEN Global Group</h2>
-        <p class="lead">Customized grades for ceramics, glass, coatings, refractories and more — delivered across India and for export.</p>
+        <p class="lead">Customized grades for ceramics, glass, coatings, refractories and more, delivered across India and for export.</p>
         <div class="cta__actions"><a class="btn btn--oxide" href="contact.html?product=${encodeURIComponent(p.name)}">Request a quote ${ARR}</a><a class="btn btn--line-light" href="${D.contact.phoneHref}">Call ${D.contact.phone}</a></div>
       </div></div>
     </section>
@@ -260,7 +270,7 @@
       ["plant-9591", "Ball mill unit"], ["plant-8583", "Mill house"], ["plant-8576", "Raw mineral yard"],
       ["plant-9593", "Finished goods store"], ["plant-8570", "Grinding & bagging hall"], ["plant-8578", "Stockpiles & yard"]
     ];
-    gal.innerHTML = items.map(([f, cap], i) => `<figure class="rv" style="--d:${(i % 3) * 0.06}s" data-i="${i}"><img src="images/graded/${f}.webp" alt="${esc(cap)}" loading="lazy"><figcaption>${pad(i + 1)} — ${esc(cap)}</figcaption></figure>`).join("");
+    gal.innerHTML = items.map(([f, cap], i) => `<figure class="rv" style="--d:${(i % 3) * 0.06}s" data-i="${i}"><img src="images/graded/${f}.webp" alt="${esc(cap)}" loading="lazy"><figcaption>${pad(i + 1)} · ${esc(cap)}</figcaption></figure>`).join("");
     window.__lb = items.map(([f, c]) => [`images/graded/${f}.webp`, c]);
     gal.addEventListener("click", (e) => { const f = e.target.closest("figure"); if (f) openLB(+f.dataset.i); });
   }
@@ -284,7 +294,7 @@
       e.preventDefault();
       const f = Object.fromEntries(new FormData(form));
       const body = `Name: ${f.name}\nCompany: ${f.company || "-"}\nPhone: ${f.phone || "-"}\nEmail: ${f.email}\nProduct: ${f.product || "-"}\nQuantity: ${f.qty || "-"}\n\n${f.message}`;
-      location.href = `mailto:${D.contact.email}?subject=${encodeURIComponent("Enquiry: " + (f.product || "Minerals") + " — " + f.name)}&body=${encodeURIComponent(body)}`;
+      location.href = `mailto:${D.contact.email}?subject=${encodeURIComponent("Enquiry: " + (f.product || "Minerals") + " from " + f.name)}&body=${encodeURIComponent(body)}`;
       $(".form__note", form).textContent = "Opening your email app with the enquiry pre-filled…";
     });
   }

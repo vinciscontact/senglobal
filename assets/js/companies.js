@@ -1,4 +1,4 @@
-/* SEN Global Group — Group of Companies page */
+/* SEN Global Group: Group of Companies page */
 (() => {
   const D = window.SEN;
   const $ = (s, el = document) => el.querySelector(s);
@@ -45,7 +45,7 @@
       </div>
       <div class="g-co__body">
         <div class="g-co__year" aria-hidden="true">${c.since}</div>
-        <span class="g-co__idx">${pad(i + 1)} / ${pad(cos.length)} — SEN Group company</span>
+        <span class="g-co__idx">${pad(i + 1)} / ${pad(cos.length)} · SEN Group company</span>
         <h2 class="h2">${esc(c.name)}</h2>
         <p class="g-co__place">${PIN}${esc(c.place)}</p>
         ${c.text.map((t) => `<p class="lead">${esc(t)}</p>`).join("")}
@@ -69,6 +69,7 @@
 
     if (window.Lenis) {
       const lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+      window.__lenis = lenis;
       document.documentElement.classList.add("has-lenis");
       lenis.on("scroll", ScrollTrigger.update);
       const raf = (t) => lenis.raf(t * 1000);
@@ -77,7 +78,6 @@
         const t = $(a.getAttribute("href")); if (!t) return;
         e.preventDefault(); lenis.scrollTo(t, { offset: -10, duration: 1.4 });
       }));
-      if (location.hash && $(location.hash)) setTimeout(() => lenis.scrollTo($(location.hash), { immediate: true }), 50);
       ctx.add(() => () => { gsap.ticker.remove(raf); lenis.destroy(); document.documentElement.classList.remove("has-lenis"); });
     }
 

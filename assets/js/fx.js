@@ -1,4 +1,4 @@
-/* SEN Global Group — shared motion for inner pages (About, Projects)
+/* SEN Global Group: shared motion for inner pages (About, Projects)
    Declarative hooks:
    [data-lines]   masked line reveal on .ln > span children
    [data-fade]    children fade/rise in, staggered
